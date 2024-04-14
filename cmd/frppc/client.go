@@ -1,13 +1,13 @@
 package main
 
 import (
-	bizclient "github.com/VaalaCat/frp-panel/biz/client"
-	"github.com/VaalaCat/frp-panel/conf"
+	bizclient "github.com/EquaApps/frp/biz/client"
+	"github.com/EquaApps/frp/conf"
 	"github.com/EquaApps/frp/pb"
-	"github.com/VaalaCat/frp-panel/rpc"
-	"github.com/VaalaCat/frp-panel/services/rpcclient"
-	"github.com/VaalaCat/frp-panel/utils"
-	"github.com/VaalaCat/frp-panel/watcher"
+	"github.com/EquaApps/frp/rpc"
+	"github.com/EquaApps/frp/services/rpcclient"
+	"github.com/EquaApps/frp/utils"
+	"github.com/EquaApps/frp/watcher"
 	"github.com/fatedier/golib/crypto"
 	"github.com/sirupsen/logrus"
 	"github.com/sourcegraph/conc"

@@ -9,7 +9,7 @@ import (
 	"encoding/pem"
 
 	"github.com/EquaApps/frp/models"
-	"github.com/VaalaCat/frp-panel/utils"
+	"github.com/EquaApps/frp/utils"
 	"github.com/sirupsen/logrus"
 	"google.golang.org/grpc/credentials"
 )

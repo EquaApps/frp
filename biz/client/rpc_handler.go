@@ -1,7 +1,7 @@
 package client
 
 import (
-	"github.com/VaalaCat/frp-panel/common"
+	"github.com/EquaApps/frp/common"
 	"github.com/EquaApps/frp/pb"
 	"github.com/sirupsen/logrus"
 )

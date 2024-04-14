@@ -4,9 +4,9 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/VaalaCat/frp-panel/conf"
+	"github.com/EquaApps/frp/conf"
 	"github.com/EquaApps/frp/dao"
-	"github.com/VaalaCat/frp-panel/middleware"
+	"github.com/EquaApps/frp/middleware"
 	"github.com/EquaApps/frp/pb"
 	"github.com/gin-gonic/gin"
 )

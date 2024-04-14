@@ -1,8 +1,8 @@
 package main
 
 import (
-	"github.com/VaalaCat/frp-panel/conf"
-	"github.com/VaalaCat/frp-panel/rpc"
+	"github.com/EquaApps/frp/conf"
+	"github.com/EquaApps/frp/rpc"
 )
 
 func main() {

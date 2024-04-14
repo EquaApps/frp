@@ -1,10 +1,10 @@
 package middleware
 
 import (
-	"github.com/VaalaCat/frp-panel/common"
+	"github.com/EquaApps/frp/common"
 	"github.com/EquaApps/frp/dao"
 	"github.com/EquaApps/frp/models"
-	"github.com/VaalaCat/frp-panel/utils"
+	"github.com/EquaApps/frp/utils"
 	"github.com/gin-gonic/gin"
 	"github.com/sirupsen/logrus"
 )

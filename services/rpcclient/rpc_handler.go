@@ -6,7 +6,7 @@ import (
 	"time"
 
 	"github.com/EquaApps/frp/pb"
-	"github.com/VaalaCat/frp-panel/rpc"
+	"github.com/EquaApps/frp/rpc"
 	"github.com/google/uuid"
 	"github.com/sirupsen/logrus"
 )

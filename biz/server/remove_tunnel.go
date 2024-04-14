@@ -5,7 +5,7 @@ import (
 	"fmt"
 
 	"github.com/EquaApps/frp/pb"
-	"github.com/VaalaCat/frp-panel/tunnel"
+	"github.com/EquaApps/frp/tunnel"
 	"github.com/sirupsen/logrus"
 )
 

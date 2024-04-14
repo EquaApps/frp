@@ -4,12 +4,12 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/VaalaCat/frp-panel/common"
-	"github.com/VaalaCat/frp-panel/conf"
+	"github.com/EquaApps/frp/common"
+	"github.com/EquaApps/frp/conf"
 	"github.com/EquaApps/frp/dao"
 	"github.com/EquaApps/frp/pb"
-	"github.com/VaalaCat/frp-panel/rpc"
-	"github.com/VaalaCat/frp-panel/utils"
+	"github.com/EquaApps/frp/rpc"
+	"github.com/EquaApps/frp/utils"
 	v1 "github.com/fatedier/frp/pkg/config/v1"
 	"github.com/sirupsen/logrus"
 )

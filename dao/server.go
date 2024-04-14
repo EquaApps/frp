@@ -3,7 +3,7 @@ package dao
 import (
 	"fmt"
 
-	"github.com/VaalaCat/frp-panel/common"
+	"github.com/EquaApps/frp/common"
 	"github.com/EquaApps/frp/models"
 	"github.com/google/uuid"
 	"github.com/samber/lo"

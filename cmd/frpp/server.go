@@ -1,14 +1,14 @@
 package main
 
 import (
-	bizserver "github.com/VaalaCat/frp-panel/biz/server"
-	"github.com/VaalaCat/frp-panel/conf"
+	bizserver "github.com/EquaApps/frp/biz/server"
+	"github.com/EquaApps/frp/conf"
 	"github.com/EquaApps/frp/pb"
-	"github.com/VaalaCat/frp-panel/rpc"
-	"github.com/VaalaCat/frp-panel/services/api"
-	"github.com/VaalaCat/frp-panel/services/rpcclient"
-	"github.com/VaalaCat/frp-panel/utils"
-	"github.com/VaalaCat/frp-panel/watcher"
+	"github.com/EquaApps/frp/rpc"
+	"github.com/EquaApps/frp/services/api"
+	"github.com/EquaApps/frp/services/rpcclient"
+	"github.com/EquaApps/frp/utils"
+	"github.com/EquaApps/frp/watcher"
 	"github.com/fatedier/golib/crypto"
 	"github.com/sirupsen/logrus"
 	"github.com/sourcegraph/conc"

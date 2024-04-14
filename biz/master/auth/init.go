@@ -1,7 +1,7 @@
 package auth
 
 import (
-	"github.com/VaalaCat/frp-panel/cache"
+	"github.com/EquaApps/frp/cache"
 	"github.com/EquaApps/frp/dao"
 	"github.com/EquaApps/frp/models"
 	"github.com/samber/lo"

@@ -9,8 +9,8 @@ import (
 	"net/url"
 	"time"
 
-	"github.com/VaalaCat/frp-panel/common"
-	"github.com/VaalaCat/frp-panel/utils"
+	"github.com/EquaApps/frp/common"
+	"github.com/EquaApps/frp/utils"
 	v1 "github.com/fatedier/frp/pkg/config/v1"
 	"github.com/sirupsen/logrus"
 )

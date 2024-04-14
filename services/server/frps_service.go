@@ -6,10 +6,6 @@ import (
 	"fmt"
 	"net/http"
 	"time"
-<<<<<<< HEAD
-=======
-
->>>>>>> 1fe342e1a6d384ae736535ee15732e61c7f86964
 	v1 "github.com/fatedier/frp/pkg/config/v1"
 	"github.com/fatedier/frp/pkg/config/v1/validation"
 	"github.com/fatedier/frp/pkg/metrics/mem"

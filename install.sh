@@ -14,20 +14,20 @@ case "$OS" in
     Linux)
         case "$ARCH" in
             x86_64)
-                wget -O frp-panel "${prefix}https://github.com/VaalaCat/frp-panel/releases/latest/download/frp-panel-linux-amd64"
+                wget -O frp-panel "${prefix}https://github.com/EquaApps/frp/releases/latest/download/frp-panel-linux-amd64"
                 ;;
             aarch64)
-                wget -O frp-panel "${prefix}https://github.com/VaalaCat/frp-panel/releases/latest/download/frp-panel-linux-arm64"
+                wget -O frp-panel "${prefix}https://github.com/EquaApps/frp/releases/latest/download/frp-panel-linux-arm64"
                 ;;
         esac
         ;;
     Darwin)
         case "$ARCH" in
             x86_64)
-                wget -O frp-panel "${prefix}https://github.com/VaalaCat/frp-panel/releases/latest/download/frp-panel-darwin-amd64"
+                wget -O frp-panel "${prefix}https://github.com/EquaApps/frp/releases/latest/download/frp-panel-darwin-amd64"
                 ;;
             arm64)
-                wget -O frp-panel "${prefix}https://github.com/VaalaCat/frp-panel/releases/latest/download/frp-panel-darwin-arm64"
+                wget -O frp-panel "${prefix}https://github.com/EquaApps/frp/releases/latest/download/frp-panel-darwin-arm64"
                 ;;
         esac
         ;;

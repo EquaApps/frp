@@ -1,8 +1,8 @@
 package platform
 
 import (
-	"github.com/VaalaCat/frp-panel/common"
-	"github.com/VaalaCat/frp-panel/conf"
+	"github.com/EquaApps/frp/common"
+	"github.com/EquaApps/frp/conf"
 	"github.com/EquaApps/frp/dao"
 	"github.com/EquaApps/frp/pb"
 	"github.com/gin-gonic/gin"

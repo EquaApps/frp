@@ -3,7 +3,7 @@ package tunnel
 import (
 	"sync"
 
-	"github.com/VaalaCat/frp-panel/services/client"
+	"github.com/EquaApps/frp/services/client"
 )
 
 type ClientController interface {

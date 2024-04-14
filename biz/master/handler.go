@@ -3,14 +3,14 @@ package master
 import (
 	"embed"
 
-	"github.com/VaalaCat/frp-panel/biz/master/auth"
-	"github.com/VaalaCat/frp-panel/biz/master/client"
-	"github.com/VaalaCat/frp-panel/biz/master/platform"
-	"github.com/VaalaCat/frp-panel/biz/master/server"
-	"github.com/VaalaCat/frp-panel/biz/master/user"
+	"github.com/EquaApps/frp/biz/master/auth"
+	"github.com/EquaApps/frp/biz/master/client"
+	"github.com/EquaApps/frp/biz/master/platform"
+	"github.com/EquaApps/frp/biz/master/server"
+	"github.com/EquaApps/frp/biz/master/user"
 	"github.com/EquaApps/frp/biz/master/order"
-	"github.com/VaalaCat/frp-panel/common"
-	"github.com/VaalaCat/frp-panel/middleware"
+	"github.com/EquaApps/frp/common"
+	"github.com/EquaApps/frp/middleware"
 	"github.com/gin-gonic/gin"
 )
 

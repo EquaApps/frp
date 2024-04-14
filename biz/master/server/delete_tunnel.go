@@ -3,10 +3,10 @@ package server
 import (
 	"context"
 
-	"github.com/VaalaCat/frp-panel/common"
+	"github.com/EquaApps/frp/common"
 	"github.com/EquaApps/frp/dao"
 	"github.com/EquaApps/frp/pb"
-	"github.com/VaalaCat/frp-panel/rpc"
+	"github.com/EquaApps/frp/rpc"
 	"github.com/sirupsen/logrus"
 )
 

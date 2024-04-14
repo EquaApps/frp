@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/VaalaCat/frp-panel/conf"
+	"github.com/EquaApps/frp/conf"
 	"github.com/sirupsen/logrus"
 	"github.com/spf13/cobra"
 )

@@ -7,7 +7,7 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/VaalaCat/frp-panel/utils"
+	"github.com/EquaApps/frp/utils"
 	"github.com/fatedier/frp/client"
 	"github.com/fatedier/frp/client/proxy"
 	v1 "github.com/fatedier/frp/pkg/config/v1"

@@ -4,7 +4,7 @@ import (
 	"net/http"
 
 	"github.com/EquaApps/frp/pb"
-	"github.com/VaalaCat/frp-panel/rpc"
+	"github.com/EquaApps/frp/rpc"
 	plugin "github.com/fatedier/frp/pkg/plugin/server"
 	"github.com/gin-gonic/gin"
 	"github.com/sirupsen/logrus"

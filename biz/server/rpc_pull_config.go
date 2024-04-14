@@ -5,10 +5,10 @@ import (
 	"reflect"
 
 	"github.com/EquaApps/frp/pb"
-	"github.com/VaalaCat/frp-panel/rpc"
+	"github.com/EquaApps/frp/rpc"
 	"github.com/EquaApps/frp/services/server"
-	"github.com/VaalaCat/frp-panel/tunnel"
-	"github.com/VaalaCat/frp-panel/utils"
+	"github.com/EquaApps/frp/tunnel"
+	"github.com/EquaApps/frp/utils"
 	"github.com/sirupsen/logrus"
 )
 
