@@ -4,10 +4,10 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/EquaApps/frp/conf"
-	"github.com/EquaApps/frp/dao"
-	"github.com/EquaApps/frp/middleware"
-	"github.com/EquaApps/frp/pb"
+	"github.com/johncoker233/frpaaa/conf"
+	"github.com/johncoker233/frpaaa/dao"
+	"github.com/johncoker233/frpaaa/middleware"
+	"github.com/johncoker233/frpaaa/pb"
 	"github.com/gin-gonic/gin"
 )
 

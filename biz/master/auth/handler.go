@@ -3,8 +3,8 @@ package auth
 import (
 	"net/http"
 
-	"github.com/EquaApps/frp/cache"
-	"github.com/EquaApps/frp/dao"
+	"github.com/johncoker233/frpaaa/cache"
+	"github.com/johncoker233/frpaaa/dao"
 	plugin "github.com/fatedier/frp/pkg/plugin/server"
 	"github.com/gin-gonic/gin"
 	"github.com/sirupsen/logrus"

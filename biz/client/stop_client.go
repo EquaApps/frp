@@ -3,8 +3,8 @@ package client
 import (
 	"context"
 
-	"github.com/EquaApps/frp/pb"
-	"github.com/EquaApps/frp/tunnel"
+	"github.com/johncoker233/frpaaa/pb"
+	"github.com/johncoker233/frpaaa/tunnel"
 	"github.com/sirupsen/logrus"
 )
 

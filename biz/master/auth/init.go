@@ -1,9 +1,9 @@
 package auth
 
 import (
-	"github.com/EquaApps/frp/cache"
-	"github.com/EquaApps/frp/dao"
-	"github.com/EquaApps/frp/models"
+	"github.com/johncoker233/frpaaa/cache"
+	"github.com/johncoker233/frpaaa/dao"
+	"github.com/johncoker233/frpaaa/models"
 	"github.com/samber/lo"
 	"github.com/sirupsen/logrus"
 )

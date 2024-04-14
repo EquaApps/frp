@@ -3,9 +3,9 @@ package client
 import (
 	"context"
 
-	"github.com/EquaApps/frp/common"
-	"github.com/EquaApps/frp/dao"
-	"github.com/EquaApps/frp/models"
+	"github.com/johncoker233/frpaaa/common"
+	"github.com/johncoker233/frpaaa/dao"
+	"github.com/johncoker233/frpaaa/models"
 	"github.com/samber/lo"
 	"github.com/sirupsen/logrus"
 )

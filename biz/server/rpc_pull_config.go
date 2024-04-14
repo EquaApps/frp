@@ -4,11 +4,11 @@ import (
 	"context"
 	"reflect"
 
-	"github.com/EquaApps/frp/pb"
-	"github.com/EquaApps/frp/rpc"
-	"github.com/EquaApps/frp/services/server"
-	"github.com/EquaApps/frp/tunnel"
-	"github.com/EquaApps/frp/utils"
+	"github.com/johncoker233/frpaaa/pb"
+	"github.com/johncoker233/frpaaa/rpc"
+	"github.com/johncoker233/frpaaa/services/server"
+	"github.com/johncoker233/frpaaa/tunnel"
+	"github.com/johncoker233/frpaaa/utils"
 	"github.com/sirupsen/logrus"
 )
 

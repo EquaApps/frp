@@ -3,8 +3,8 @@ package rpc
 import (
 	"context"
 
-	"github.com/EquaApps/frp/conf"
-	"github.com/EquaApps/frp/pb"
+	"github.com/johncoker233/frpaaa/conf"
+	"github.com/johncoker233/frpaaa/pb"
 	"github.com/imroc/req/v3"
 	"google.golang.org/grpc"
 	"google.golang.org/protobuf/proto"

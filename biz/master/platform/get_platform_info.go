@@ -1,10 +1,10 @@
 package platform
 
 import (
-	"github.com/EquaApps/frp/common"
-	"github.com/EquaApps/frp/conf"
-	"github.com/EquaApps/frp/dao"
-	"github.com/EquaApps/frp/pb"
+	"github.com/johncoker233/frpaaa/common"
+	"github.com/johncoker233/frpaaa/conf"
+	"github.com/johncoker233/frpaaa/dao"
+	"github.com/johncoker233/frpaaa/pb"
 	"github.com/gin-gonic/gin"
 )
 

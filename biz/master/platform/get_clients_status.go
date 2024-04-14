@@ -4,9 +4,9 @@ import (
 	"context"
 	"time"
 
-	"github.com/EquaApps/frp/common"
-	"github.com/EquaApps/frp/pb"
-	"github.com/EquaApps/frp/rpc"
+	"github.com/johncoker233/frpaaa/common"
+	"github.com/johncoker233/frpaaa/pb"
+	"github.com/johncoker233/frpaaa/rpc"
 	"github.com/sirupsen/logrus"
 )
 

@@ -1,13 +1,13 @@
 package main
 
 import (
-	bizclient "github.com/EquaApps/frp/biz/client"
-	"github.com/EquaApps/frp/conf"
-	"github.com/EquaApps/frp/pb"
-	"github.com/EquaApps/frp/rpc"
-	"github.com/EquaApps/frp/services/rpcclient"
-	"github.com/EquaApps/frp/utils"
-	"github.com/EquaApps/frp/watcher"
+	bizclient "github.com/johncoker233/frpaaa/biz/client"
+	"github.com/johncoker233/frpaaa/conf"
+	"github.com/johncoker233/frpaaa/pb"
+	"github.com/johncoker233/frpaaa/rpc"
+	"github.com/johncoker233/frpaaa/services/rpcclient"
+	"github.com/johncoker233/frpaaa/utils"
+	"github.com/johncoker233/frpaaa/watcher"
 	"github.com/fatedier/golib/crypto"
 	"github.com/sirupsen/logrus"
 	"github.com/sourcegraph/conc"

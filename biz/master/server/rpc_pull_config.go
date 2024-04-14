@@ -3,8 +3,8 @@ package server
 import (
 	"context"
 
-	"github.com/EquaApps/frp/models"
-	"github.com/EquaApps/frp/pb"
+	"github.com/johncoker233/frpaaa/models"
+	"github.com/johncoker233/frpaaa/pb"
 	"github.com/samber/lo"
 )
 

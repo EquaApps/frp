@@ -4,11 +4,11 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/EquaApps/frp/conf"
-	"github.com/EquaApps/frp/dao"
-	"github.com/EquaApps/frp/models"
-	"github.com/EquaApps/frp/pb"
-	"github.com/EquaApps/frp/utils"
+	"github.com/johncoker233/frpaaa/conf"
+	"github.com/johncoker233/frpaaa/dao"
+	"github.com/johncoker233/frpaaa/models"
+	"github.com/johncoker233/frpaaa/pb"
+	"github.com/johncoker233/frpaaa/utils"
 	"github.com/google/uuid"
 )
 

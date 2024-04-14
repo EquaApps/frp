@@ -5,9 +5,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/EquaApps/frp/common"
-	"github.com/EquaApps/frp/conf"
-	"github.com/EquaApps/frp/utils"
+	"github.com/johncoker233/frpaaa/common"
+	"github.com/johncoker233/frpaaa/conf"
+	"github.com/johncoker233/frpaaa/utils"
 	"github.com/gin-gonic/gin"
 	"github.com/golang-jwt/jwt/v5"
 	"github.com/sirupsen/logrus"

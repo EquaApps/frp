@@ -3,8 +3,8 @@ package server
 import (
 	"net/http"
 
-	"github.com/EquaApps/frp/pb"
-	"github.com/EquaApps/frp/rpc"
+	"github.com/johncoker233/frpaaa/pb"
+	"github.com/johncoker233/frpaaa/rpc"
 	plugin "github.com/fatedier/frp/pkg/plugin/server"
 	"github.com/gin-gonic/gin"
 	"github.com/sirupsen/logrus"

@@ -3,8 +3,8 @@ package client
 import (
 	"fmt"
 
-	"github.com/EquaApps/frp/dao"
-	"github.com/EquaApps/frp/models"
+	"github.com/johncoker233/frpaaa/dao"
+	"github.com/johncoker233/frpaaa/models"
 )
 
 type ValidateableClientRequest interface {

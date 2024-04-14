@@ -3,12 +3,12 @@ package user
 import (
 	"context"
 
-	"github.com/EquaApps/frp/biz/master/client"
-	"github.com/EquaApps/frp/common"
-	"github.com/EquaApps/frp/dao"
-	"github.com/EquaApps/frp/models"
-	"github.com/EquaApps/frp/pb"
-	"github.com/EquaApps/frp/utils"
+	"github.com/johncoker233/frpaaa/biz/master/client"
+	"github.com/johncoker233/frpaaa/common"
+	"github.com/johncoker233/frpaaa/dao"
+	"github.com/johncoker233/frpaaa/models"
+	"github.com/johncoker233/frpaaa/pb"
+	"github.com/johncoker233/frpaaa/utils"
 	"github.com/sirupsen/logrus"
 )
 

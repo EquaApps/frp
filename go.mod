@@ -1,4 +1,4 @@
-module github.com/EquaApps/frp
+module github.com/johncoker233/frpaaa
 
 go 1.22.1
 

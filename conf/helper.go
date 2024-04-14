@@ -9,8 +9,8 @@ import (
 	"net/url"
 	"time"
 
-	"github.com/EquaApps/frp/common"
-	"github.com/EquaApps/frp/utils"
+	"github.com/johncoker233/frpaaa/common"
+	"github.com/johncoker233/frpaaa/utils"
 	v1 "github.com/fatedier/frp/pkg/config/v1"
 	"github.com/sirupsen/logrus"
 )

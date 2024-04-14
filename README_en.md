@@ -16,7 +16,7 @@ Our goal is to create a more powerful and comprehensive frp that provides:
 ![](./doc/frp-panel-demo.gif)
 
 ## Project Usage Instructions
-frp-panel can be deployed in docker or direct run mode. For direct deployment, please download the files from the release: [release](https://github.com/EquaApps/frp/releases)
+frp-panel can be deployed in docker or direct run mode. For direct deployment, please download the files from the release: [release](https://github.com/johncoker233/frpaaa/releases)
 
 Note: There are two types of binaries, one is for the client only, and the other is a full-featured executable file. The client version will have a "client" identifier in its name.
 

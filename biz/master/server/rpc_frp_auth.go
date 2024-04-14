@@ -4,9 +4,9 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/EquaApps/frp/cache"
-	"github.com/EquaApps/frp/dao"
-	"github.com/EquaApps/frp/pb"
+	"github.com/johncoker233/frpaaa/cache"
+	"github.com/johncoker233/frpaaa/dao"
+	"github.com/johncoker233/frpaaa/pb"
 	"github.com/sirupsen/logrus"
 )
 

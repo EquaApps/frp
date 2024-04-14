@@ -1,8 +1,8 @@
 package main
 
 import (
-	"github.com/EquaApps/frp/conf"
-	"github.com/EquaApps/frp/rpc"
+	"github.com/johncoker233/frpaaa/conf"
+	"github.com/johncoker233/frpaaa/rpc"
 )
 
 func main() {

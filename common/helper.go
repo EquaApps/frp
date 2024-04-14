@@ -4,7 +4,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/EquaApps/frp/pb"
+	"github.com/johncoker233/frpaaa/pb"
 	"github.com/gin-gonic/gin"
 	"github.com/sirupsen/logrus"
 	"google.golang.org/protobuf/proto"

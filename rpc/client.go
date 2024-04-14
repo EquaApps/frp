@@ -6,7 +6,7 @@ import (
 	"io"
 	"sync"
 
-	"github.com/EquaApps/frp/pb"
+	"github.com/johncoker233/frpaaa/pb"
 	"github.com/google/uuid"
 	"github.com/sirupsen/logrus"
 	"google.golang.org/protobuf/proto"

@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+package api_order;
+
+message Status {
+    int32 code = 1;
+    string message = 2;
+}
+
+message CreateOrderRequest {
+    int32 bandwidth = 1;
+    string comment = 2;
+}
+
+message CreateOrderResponse {
+    Status status = 1;
+    string order_id = 2;
+}
+
+enum RespCode {
+    RESP_CODE_INVALID = 0;
+    RESP_CODE_SUCCESS = 1;
+}

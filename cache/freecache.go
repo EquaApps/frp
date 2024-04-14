@@ -1,7 +1,7 @@
 package cache
 
 import (
-	"github.com/EquaApps/frp/conf"
+	"github.com/johncoker233/frpaaa/conf"
 	"github.com/coocood/freecache"
 	"github.com/sirupsen/logrus"
 )

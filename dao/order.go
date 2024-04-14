@@ -1,7 +1,7 @@
 package dao
 
 import (
-    "github.com/EquaApps/frp/models"
+    "github.com/johncoker233/frpaaa/models"
     "time"
 	"github.com/google/uuid"
 )

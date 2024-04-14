@@ -173,7 +173,7 @@ export const ClientSecret = ({ client }: { client: ClientTableSchema }) => {
         </div>
       </PopoverTrigger>
       <PopoverContent className="w-fit overflow-auto max-w-80">
-        <div>运行命令(需要<a className='text-blue-500' href='https://github.com/EquaApps/frp/releases'>点击这里</a>自行下载文件)</div>
+        <div>运行命令(需要<a className='text-blue-500' href='https://github.com/johncoker233/frpaaa/releases'>点击这里</a>自行下载文件)</div>
         <div className="p-2 border rounded font-mono w-fit">
           {platformInfo === undefined ? '获取平台信息失败' : ExecCommandStr('client', client, platformInfo)}
         </div>

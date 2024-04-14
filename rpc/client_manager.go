@@ -3,7 +3,7 @@ package rpc
 import (
 	"sync"
 
-	"github.com/EquaApps/frp/pb"
+	"github.com/johncoker233/frpaaa/pb"
 )
 
 type ClientsManager interface {

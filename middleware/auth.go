@@ -1,10 +1,10 @@
 package middleware
 
 import (
-	"github.com/EquaApps/frp/common"
-	"github.com/EquaApps/frp/dao"
-	"github.com/EquaApps/frp/models"
-	"github.com/EquaApps/frp/utils"
+	"github.com/johncoker233/frpaaa/common"
+	"github.com/johncoker233/frpaaa/dao"
+	"github.com/johncoker233/frpaaa/models"
+	"github.com/johncoker233/frpaaa/utils"
 	"github.com/gin-gonic/gin"
 	"github.com/sirupsen/logrus"
 )

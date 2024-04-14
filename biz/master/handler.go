@@ -3,14 +3,14 @@ package master
 import (
 	"embed"
 
-	"github.com/EquaApps/frp/biz/master/auth"
-	"github.com/EquaApps/frp/biz/master/client"
-	"github.com/EquaApps/frp/biz/master/platform"
-	"github.com/EquaApps/frp/biz/master/server"
-	"github.com/EquaApps/frp/biz/master/user"
-	"github.com/EquaApps/frp/biz/master/order"
-	"github.com/EquaApps/frp/common"
-	"github.com/EquaApps/frp/middleware"
+	"github.com/johncoker233/frpaaa/biz/master/auth"
+	"github.com/johncoker233/frpaaa/biz/master/client"
+	"github.com/johncoker233/frpaaa/biz/master/platform"
+	"github.com/johncoker233/frpaaa/biz/master/server"
+	"github.com/johncoker233/frpaaa/biz/master/user"
+	"github.com/johncoker233/frpaaa/biz/master/order"
+	"github.com/johncoker233/frpaaa/common"
+	"github.com/johncoker233/frpaaa/middleware"
 	"github.com/gin-gonic/gin"
 )
 

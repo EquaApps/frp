@@ -1,5 +1,5 @@
 digraph gocallvis {
-    label="github.com/EquaApps/frp/cmd";
+    label="github.com/johncoker233/frpaaa/cmd";
     labeljust="l";
     fontname="Arial";
     fontsize="14";
@@ -20,82 +20,82 @@ labelloc="t";
 labeljust="c";
 fontsize="18";
         
-        "github.com/EquaApps/frp/cmd.runClient" [ fillcolor="lightblue" label="runClient" penwidth="0.5" tooltip="github.com/EquaApps/frp/cmd.runClient | defined in client.go:12\nat client.go:31: calling [github.com/EquaApps/frp/watcher.NewClient]\nat client.go:34: calling [github.com/EquaApps/frp/cmd.initClientOnce]\nat client.go:28: calling [github.com/EquaApps/frp/services/rpcclient.GetClientRPCSerivce]\nat client.go:29: calling [(*github.com/EquaApps/frp/services/rpcclient.ClientRPC).Stop]\nat client.go:22: calling [github.com/EquaApps/frp/services/rpcclient.MustInitClientRPCSerivce]\nat client.go:32: calling [(*github.com/EquaApps/frp/watcher.client).Stop]" ]
-        "github.com/EquaApps/frp/cmd.initClientOnce" [ label="initClientOnce" penwidth="0.5" tooltip="github.com/EquaApps/frp/cmd.initClientOnce | defined in client.go:42\nat client.go:43: calling [github.com/EquaApps/frp/biz/client.PullConfig]" fillcolor="lightblue" ]
-        "github.com/EquaApps/frp/cmd.initCommand$1" [ fillcolor="lightblue" label="initCommand$1" style="dotted,filled" tooltip="github.com/EquaApps/frp/cmd.initCommand$1 | defined in cmd.go:30\nat cmd.go:31: calling [github.com/EquaApps/frp/cmd.runClient]" ]
-        "github.com/EquaApps/frp/cmd.runServer" [ penwidth="0.5" tooltip="github.com/EquaApps/frp/cmd.runServer | defined in server.go:14\nat server.go:38: calling [(*github.com/EquaApps/frp/watcher.client).Stop]\nat server.go:37: calling [github.com/EquaApps/frp/watcher.NewClient]\nat server.go:35: calling [(*github.com/EquaApps/frp/services/rpcclient.ClientRPC).Stop]\nat server.go:22: calling [github.com/EquaApps/frp/conf.ServerAPIListenAddr]\nat server.go:24: calling [github.com/EquaApps/frp/services/api.GetAPIService]\nat server.go:25: calling [(*github.com/EquaApps/frp/services/api.server).Stop]\nat server.go:21: calling [github.com/EquaApps/frp/biz/server.NewRouter]\nat server.go:22: calling [github.com/EquaApps/frp/services/api.MustInitApiService]\nat server.go:40: calling [github.com/EquaApps/frp/cmd.initServerOnce]\nat server.go:27: calling [github.com/EquaApps/frp/services/rpcclient.MustInitClientRPCSerivce]\nat server.go:34: calling [github.com/EquaApps/frp/services/rpcclient.GetClientRPCSerivce]" fillcolor="lightblue" label="runServer" ]
-        "github.com/EquaApps/frp/cmd.initServerOnce" [ fillcolor="lightblue" label="initServerOnce" penwidth="0.5" tooltip="github.com/EquaApps/frp/cmd.initServerOnce | defined in server.go:49\nat server.go:50: calling [github.com/EquaApps/frp/biz/server.PullConfig]" ]
-        "github.com/EquaApps/frp/cmd.initCommand$2" [ fillcolor="lightblue" label="initCommand$2" style="dotted,filled" tooltip="github.com/EquaApps/frp/cmd.initCommand$2 | defined in cmd.go:37\nat cmd.go:38: calling [github.com/EquaApps/frp/cmd.runServer]" ]
-        "github.com/EquaApps/frp/cmd.runMaster" [ tooltip="github.com/EquaApps/frp/cmd.runMaster | defined in master.go:20\nat master.go:34: calling [github.com/EquaApps/frp/conf.FRPsAuthOption]\nat master.go:28: calling [github.com/EquaApps/frp/biz/master/auth.InitAuth]\nat master.go:37: calling [github.com/EquaApps/frp/services/server.GetServerSerivce]\nat master.go:23: calling [github.com/EquaApps/frp/biz/master.NewRouter]\nat master.go:32: calling [github.com/EquaApps/frp/utils.NewBaseFRPServerUserAuthConfig]\nat master.go:21: calling [github.com/EquaApps/frp/services/master.MustInitMasterService]\nat master.go:24: calling [github.com/EquaApps/frp/services/api.MustInitApiService]\nat master.go:26: calling [github.com/EquaApps/frp/cmd.initDatabase]\nat master.go:33: calling [github.com/EquaApps/frp/conf.Get]\nat master.go:27: calling [github.com/EquaApps/frp/cache.InitCache]\nat master.go:24: calling [github.com/EquaApps/frp/conf.MasterAPIListenAddr]\nat master.go:31: calling [github.com/EquaApps/frp/services/master.GetMasterSerivce]\nat master.go:38: calling [github.com/EquaApps/frp/services/api.GetAPIService]" fillcolor="lightblue" label="runMaster" penwidth="0.5" ]
-        "github.com/EquaApps/frp/cmd.initDatabase" [ fillcolor="lightblue" label="initDatabase" penwidth="0.5" tooltip="github.com/EquaApps/frp/cmd.initDatabase | defined in master.go:47\nat master.go:48: calling [github.com/EquaApps/frp/conf.Get]\nat master.go:49: calling [github.com/EquaApps/frp/conf.Get]\nat master.go:51: calling [github.com/EquaApps/frp/conf.Get]\nat master.go:53: calling [github.com/EquaApps/frp/conf.Get]\nat master.go:60: calling [github.com/EquaApps/frp/conf.Get]\nat master.go:57: calling [github.com/EquaApps/frp/conf.Get]\nat master.go:63: calling [github.com/EquaApps/frp/models.GetDBManager]\nat master.go:56: calling [github.com/EquaApps/frp/models.GetDBManager]\nat master.go:49: calling [github.com/EquaApps/frp/models.MustInitDBManager]\nat master.go:56: calling [(*github.com/EquaApps/frp/models.dbManagerImpl).SetDB]\nat master.go:63: calling [(*github.com/EquaApps/frp/models.dbManagerImpl).Init]" ]
-        "github.com/EquaApps/frp/cmd.initCommand$3" [ style="dotted,filled" tooltip="github.com/EquaApps/frp/cmd.initCommand$3 | defined in cmd.go:44\nat cmd.go:45: calling [github.com/EquaApps/frp/cmd.runMaster]" fillcolor="lightblue" label="initCommand$3" ]
-        "github.com/EquaApps/frp/cmd.main" [ fillcolor="lightblue" label="main" penwidth="0.5" tooltip="github.com/EquaApps/frp/cmd.main | defined in main.go:10\nat main.go:16: calling [github.com/EquaApps/frp/utils.MD5]\nat main.go:13: calling [github.com/EquaApps/frp/conf.InitConfig]\nat main.go:14: calling [github.com/EquaApps/frp/rpc.InitRPCClients]\nat main.go:16: calling [github.com/EquaApps/frp/conf.Get]\nat main.go:12: calling [github.com/EquaApps/frp/cmd.initCommand]\nat main.go:11: calling [github.com/EquaApps/frp/cmd.initLogger]" ]
-        "github.com/EquaApps/frp/cmd.initLogger" [ fillcolor="lightblue" label="initLogger" penwidth="0.5" tooltip="github.com/EquaApps/frp/cmd.initLogger | defined in cmd.go:59" ]
-        "github.com/EquaApps/frp/cmd.initCommand" [ penwidth="0.5" tooltip="github.com/EquaApps/frp/cmd.initCommand | defined in cmd.go:20" fillcolor="lightblue" label="initCommand" ]
+        "github.com/johncoker233/frpaaa/cmd.runClient" [ fillcolor="lightblue" label="runClient" penwidth="0.5" tooltip="github.com/johncoker233/frpaaa/cmd.runClient | defined in client.go:12\nat client.go:31: calling [github.com/johncoker233/frpaaa/watcher.NewClient]\nat client.go:34: calling [github.com/johncoker233/frpaaa/cmd.initClientOnce]\nat client.go:28: calling [github.com/johncoker233/frpaaa/services/rpcclient.GetClientRPCSerivce]\nat client.go:29: calling [(*github.com/johncoker233/frpaaa/services/rpcclient.ClientRPC).Stop]\nat client.go:22: calling [github.com/johncoker233/frpaaa/services/rpcclient.MustInitClientRPCSerivce]\nat client.go:32: calling [(*github.com/johncoker233/frpaaa/watcher.client).Stop]" ]
+        "github.com/johncoker233/frpaaa/cmd.initClientOnce" [ label="initClientOnce" penwidth="0.5" tooltip="github.com/johncoker233/frpaaa/cmd.initClientOnce | defined in client.go:42\nat client.go:43: calling [github.com/johncoker233/frpaaa/biz/client.PullConfig]" fillcolor="lightblue" ]
+        "github.com/johncoker233/frpaaa/cmd.initCommand$1" [ fillcolor="lightblue" label="initCommand$1" style="dotted,filled" tooltip="github.com/johncoker233/frpaaa/cmd.initCommand$1 | defined in cmd.go:30\nat cmd.go:31: calling [github.com/johncoker233/frpaaa/cmd.runClient]" ]
+        "github.com/johncoker233/frpaaa/cmd.runServer" [ penwidth="0.5" tooltip="github.com/johncoker233/frpaaa/cmd.runServer | defined in server.go:14\nat server.go:38: calling [(*github.com/johncoker233/frpaaa/watcher.client).Stop]\nat server.go:37: calling [github.com/johncoker233/frpaaa/watcher.NewClient]\nat server.go:35: calling [(*github.com/johncoker233/frpaaa/services/rpcclient.ClientRPC).Stop]\nat server.go:22: calling [github.com/johncoker233/frpaaa/conf.ServerAPIListenAddr]\nat server.go:24: calling [github.com/johncoker233/frpaaa/services/api.GetAPIService]\nat server.go:25: calling [(*github.com/johncoker233/frpaaa/services/api.server).Stop]\nat server.go:21: calling [github.com/johncoker233/frpaaa/biz/server.NewRouter]\nat server.go:22: calling [github.com/johncoker233/frpaaa/services/api.MustInitApiService]\nat server.go:40: calling [github.com/johncoker233/frpaaa/cmd.initServerOnce]\nat server.go:27: calling [github.com/johncoker233/frpaaa/services/rpcclient.MustInitClientRPCSerivce]\nat server.go:34: calling [github.com/johncoker233/frpaaa/services/rpcclient.GetClientRPCSerivce]" fillcolor="lightblue" label="runServer" ]
+        "github.com/johncoker233/frpaaa/cmd.initServerOnce" [ fillcolor="lightblue" label="initServerOnce" penwidth="0.5" tooltip="github.com/johncoker233/frpaaa/cmd.initServerOnce | defined in server.go:49\nat server.go:50: calling [github.com/johncoker233/frpaaa/biz/server.PullConfig]" ]
+        "github.com/johncoker233/frpaaa/cmd.initCommand$2" [ fillcolor="lightblue" label="initCommand$2" style="dotted,filled" tooltip="github.com/johncoker233/frpaaa/cmd.initCommand$2 | defined in cmd.go:37\nat cmd.go:38: calling [github.com/johncoker233/frpaaa/cmd.runServer]" ]
+        "github.com/johncoker233/frpaaa/cmd.runMaster" [ tooltip="github.com/johncoker233/frpaaa/cmd.runMaster | defined in master.go:20\nat master.go:34: calling [github.com/johncoker233/frpaaa/conf.FRPsAuthOption]\nat master.go:28: calling [github.com/johncoker233/frpaaa/biz/master/auth.InitAuth]\nat master.go:37: calling [github.com/johncoker233/frpaaa/services/server.GetServerSerivce]\nat master.go:23: calling [github.com/johncoker233/frpaaa/biz/master.NewRouter]\nat master.go:32: calling [github.com/johncoker233/frpaaa/utils.NewBaseFRPServerUserAuthConfig]\nat master.go:21: calling [github.com/johncoker233/frpaaa/services/master.MustInitMasterService]\nat master.go:24: calling [github.com/johncoker233/frpaaa/services/api.MustInitApiService]\nat master.go:26: calling [github.com/johncoker233/frpaaa/cmd.initDatabase]\nat master.go:33: calling [github.com/johncoker233/frpaaa/conf.Get]\nat master.go:27: calling [github.com/johncoker233/frpaaa/cache.InitCache]\nat master.go:24: calling [github.com/johncoker233/frpaaa/conf.MasterAPIListenAddr]\nat master.go:31: calling [github.com/johncoker233/frpaaa/services/master.GetMasterSerivce]\nat master.go:38: calling [github.com/johncoker233/frpaaa/services/api.GetAPIService]" fillcolor="lightblue" label="runMaster" penwidth="0.5" ]
+        "github.com/johncoker233/frpaaa/cmd.initDatabase" [ fillcolor="lightblue" label="initDatabase" penwidth="0.5" tooltip="github.com/johncoker233/frpaaa/cmd.initDatabase | defined in master.go:47\nat master.go:48: calling [github.com/johncoker233/frpaaa/conf.Get]\nat master.go:49: calling [github.com/johncoker233/frpaaa/conf.Get]\nat master.go:51: calling [github.com/johncoker233/frpaaa/conf.Get]\nat master.go:53: calling [github.com/johncoker233/frpaaa/conf.Get]\nat master.go:60: calling [github.com/johncoker233/frpaaa/conf.Get]\nat master.go:57: calling [github.com/johncoker233/frpaaa/conf.Get]\nat master.go:63: calling [github.com/johncoker233/frpaaa/models.GetDBManager]\nat master.go:56: calling [github.com/johncoker233/frpaaa/models.GetDBManager]\nat master.go:49: calling [github.com/johncoker233/frpaaa/models.MustInitDBManager]\nat master.go:56: calling [(*github.com/johncoker233/frpaaa/models.dbManagerImpl).SetDB]\nat master.go:63: calling [(*github.com/johncoker233/frpaaa/models.dbManagerImpl).Init]" ]
+        "github.com/johncoker233/frpaaa/cmd.initCommand$3" [ style="dotted,filled" tooltip="github.com/johncoker233/frpaaa/cmd.initCommand$3 | defined in cmd.go:44\nat cmd.go:45: calling [github.com/johncoker233/frpaaa/cmd.runMaster]" fillcolor="lightblue" label="initCommand$3" ]
+        "github.com/johncoker233/frpaaa/cmd.main" [ fillcolor="lightblue" label="main" penwidth="0.5" tooltip="github.com/johncoker233/frpaaa/cmd.main | defined in main.go:10\nat main.go:16: calling [github.com/johncoker233/frpaaa/utils.MD5]\nat main.go:13: calling [github.com/johncoker233/frpaaa/conf.InitConfig]\nat main.go:14: calling [github.com/johncoker233/frpaaa/rpc.InitRPCClients]\nat main.go:16: calling [github.com/johncoker233/frpaaa/conf.Get]\nat main.go:12: calling [github.com/johncoker233/frpaaa/cmd.initCommand]\nat main.go:11: calling [github.com/johncoker233/frpaaa/cmd.initLogger]" ]
+        "github.com/johncoker233/frpaaa/cmd.initLogger" [ fillcolor="lightblue" label="initLogger" penwidth="0.5" tooltip="github.com/johncoker233/frpaaa/cmd.initLogger | defined in cmd.go:59" ]
+        "github.com/johncoker233/frpaaa/cmd.initCommand" [ penwidth="0.5" tooltip="github.com/johncoker233/frpaaa/cmd.initCommand | defined in cmd.go:20" fillcolor="lightblue" label="initCommand" ]
         
-        subgraph "cluster_github.com/EquaApps/frp/biz/client" {
+        subgraph "cluster_github.com/johncoker233/frpaaa/biz/client" {
         fontsize="16";
-URL="/?f=github.com/EquaApps/frp/biz/client";
+URL="/?f=github.com/johncoker233/frpaaa/biz/client";
 fontname="Tahoma bold";
 rank="sink";
 label="client";
-tooltip="package: github.com/EquaApps/frp/biz/client";
+tooltip="package: github.com/johncoker233/frpaaa/biz/client";
 penwidth="0.8";
 style="filled";
 fillcolor="lightyellow";
         
-        "github.com/EquaApps/frp/biz/client.PullConfig" [ fillcolor="moccasin" label="PullConfig" penwidth="1.5" tooltip="github.com/EquaApps/frp/biz/client.PullConfig | defined in rpc_pull_config.go:15" ]
+        "github.com/johncoker233/frpaaa/biz/client.PullConfig" [ fillcolor="moccasin" label="PullConfig" penwidth="1.5" tooltip="github.com/johncoker233/frpaaa/biz/client.PullConfig | defined in rpc_pull_config.go:15" ]
         
     }
 
-        subgraph "cluster_github.com/EquaApps/frp/biz/master" {
+        subgraph "cluster_github.com/johncoker233/frpaaa/biz/master" {
         penwidth="0.8";
 style="filled";
 rank="sink";
-tooltip="package: github.com/EquaApps/frp/biz/master";
+tooltip="package: github.com/johncoker233/frpaaa/biz/master";
 fontsize="16";
 fillcolor="lightyellow";
 fontname="Tahoma bold";
 label="master";
-URL="/?f=github.com/EquaApps/frp/biz/master";
+URL="/?f=github.com/johncoker233/frpaaa/biz/master";
         
-        "github.com/EquaApps/frp/biz/master.NewRouter" [ penwidth="1.5" tooltip="github.com/EquaApps/frp/biz/master.NewRouter | defined in handler.go:13" fillcolor="moccasin" label="NewRouter" ]
+        "github.com/johncoker233/frpaaa/biz/master.NewRouter" [ penwidth="1.5" tooltip="github.com/johncoker233/frpaaa/biz/master.NewRouter | defined in handler.go:13" fillcolor="moccasin" label="NewRouter" ]
         
     }
 
-        subgraph "cluster_github.com/EquaApps/frp/biz/master/auth" {
+        subgraph "cluster_github.com/johncoker233/frpaaa/biz/master/auth" {
         fillcolor="lightyellow";
 label="auth";
-URL="/?f=github.com/EquaApps/frp/biz/master/auth";
-tooltip="package: github.com/EquaApps/frp/biz/master/auth";
+URL="/?f=github.com/johncoker233/frpaaa/biz/master/auth";
+tooltip="package: github.com/johncoker233/frpaaa/biz/master/auth";
 penwidth="0.8";
 style="filled";
 fontname="Tahoma bold";
 rank="sink";
 fontsize="16";
         
-        "github.com/EquaApps/frp/biz/master/auth.InitAuth" [ label="InitAuth" penwidth="1.5" tooltip="github.com/EquaApps/frp/biz/master/auth.InitAuth | defined in init.go:11" fillcolor="moccasin" ]
+        "github.com/johncoker233/frpaaa/biz/master/auth.InitAuth" [ label="InitAuth" penwidth="1.5" tooltip="github.com/johncoker233/frpaaa/biz/master/auth.InitAuth | defined in init.go:11" fillcolor="moccasin" ]
         
     }
 
-        subgraph "cluster_github.com/EquaApps/frp/biz/server" {
+        subgraph "cluster_github.com/johncoker233/frpaaa/biz/server" {
         fillcolor="lightyellow";
 fontname="Tahoma bold";
-URL="/?f=github.com/EquaApps/frp/biz/server";
-tooltip="package: github.com/EquaApps/frp/biz/server";
+URL="/?f=github.com/johncoker233/frpaaa/biz/server";
+tooltip="package: github.com/johncoker233/frpaaa/biz/server";
 penwidth="0.8";
 style="filled";
 label="server";
 fontsize="16";
 rank="sink";
         
-        "github.com/EquaApps/frp/biz/server.NewRouter" [ fillcolor="moccasin" label="NewRouter" penwidth="1.5" tooltip="github.com/EquaApps/frp/biz/server.NewRouter | defined in auth_handler.go:13" ]
-        "github.com/EquaApps/frp/biz/server.PullConfig" [ tooltip="github.com/EquaApps/frp/biz/server.PullConfig | defined in rpc_pull_config.go:15" fillcolor="moccasin" label="PullConfig" penwidth="1.5" ]
+        "github.com/johncoker233/frpaaa/biz/server.NewRouter" [ fillcolor="moccasin" label="NewRouter" penwidth="1.5" tooltip="github.com/johncoker233/frpaaa/biz/server.NewRouter | defined in auth_handler.go:13" ]
+        "github.com/johncoker233/frpaaa/biz/server.PullConfig" [ tooltip="github.com/johncoker233/frpaaa/biz/server.PullConfig | defined in rpc_pull_config.go:15" fillcolor="moccasin" label="PullConfig" penwidth="1.5" ]
         
     }
 
-        subgraph "cluster_github.com/EquaApps/frp/cache" {
-        tooltip="package: github.com/EquaApps/frp/cache";
+        subgraph "cluster_github.com/johncoker233/frpaaa/cache" {
+        tooltip="package: github.com/johncoker233/frpaaa/cache";
 fontsize="16";
 style="filled";
 fillcolor="lightyellow";
@@ -103,15 +103,15 @@ rank="sink";
 penwidth="0.8";
 fontname="Tahoma bold";
 label="cache";
-URL="/?f=github.com/EquaApps/frp/cache";
+URL="/?f=github.com/johncoker233/frpaaa/cache";
         
-        "github.com/EquaApps/frp/cache.InitCache" [ label="InitCache" penwidth="1.5" tooltip="github.com/EquaApps/frp/cache.InitCache | defined in freecache.go:13" fillcolor="moccasin" ]
+        "github.com/johncoker233/frpaaa/cache.InitCache" [ label="InitCache" penwidth="1.5" tooltip="github.com/johncoker233/frpaaa/cache.InitCache | defined in freecache.go:13" fillcolor="moccasin" ]
         
     }
 
-        subgraph "cluster_github.com/EquaApps/frp/conf" {
-        URL="/?f=github.com/EquaApps/frp/conf";
-tooltip="package: github.com/EquaApps/frp/conf";
+        subgraph "cluster_github.com/johncoker233/frpaaa/conf" {
+        URL="/?f=github.com/johncoker233/frpaaa/conf";
+tooltip="package: github.com/johncoker233/frpaaa/conf";
 style="filled";
 rank="sink";
 fillcolor="lightyellow";
@@ -120,49 +120,49 @@ label="conf";
 penwidth="0.8";
 fontsize="16";
         
-        "github.com/EquaApps/frp/conf.ServerAPIListenAddr" [ label="ServerAPIListenAddr" penwidth="1.5" tooltip="github.com/EquaApps/frp/conf.ServerAPIListenAddr | defined in helper.go:42" fillcolor="moccasin" ]
-        "github.com/EquaApps/frp/conf.MasterAPIListenAddr" [ tooltip="github.com/EquaApps/frp/conf.MasterAPIListenAddr | defined in helper.go:37" fillcolor="moccasin" label="MasterAPIListenAddr" penwidth="1.5" ]
-        "github.com/EquaApps/frp/conf.Get" [ tooltip="github.com/EquaApps/frp/conf.Get | defined in settings.go:44" fillcolor="moccasin" label="Get" penwidth="1.5" ]
-        "github.com/EquaApps/frp/conf.FRPsAuthOption" [ fillcolor="moccasin" label="FRPsAuthOption" penwidth="1.5" tooltip="github.com/EquaApps/frp/conf.FRPsAuthOption | defined in helper.go:47" ]
-        "github.com/EquaApps/frp/conf.InitConfig" [ label="InitConfig" penwidth="1.5" tooltip="github.com/EquaApps/frp/conf.InitConfig | defined in settings.go:48" fillcolor="moccasin" ]
+        "github.com/johncoker233/frpaaa/conf.ServerAPIListenAddr" [ label="ServerAPIListenAddr" penwidth="1.5" tooltip="github.com/johncoker233/frpaaa/conf.ServerAPIListenAddr | defined in helper.go:42" fillcolor="moccasin" ]
+        "github.com/johncoker233/frpaaa/conf.MasterAPIListenAddr" [ tooltip="github.com/johncoker233/frpaaa/conf.MasterAPIListenAddr | defined in helper.go:37" fillcolor="moccasin" label="MasterAPIListenAddr" penwidth="1.5" ]
+        "github.com/johncoker233/frpaaa/conf.Get" [ tooltip="github.com/johncoker233/frpaaa/conf.Get | defined in settings.go:44" fillcolor="moccasin" label="Get" penwidth="1.5" ]
+        "github.com/johncoker233/frpaaa/conf.FRPsAuthOption" [ fillcolor="moccasin" label="FRPsAuthOption" penwidth="1.5" tooltip="github.com/johncoker233/frpaaa/conf.FRPsAuthOption | defined in helper.go:47" ]
+        "github.com/johncoker233/frpaaa/conf.InitConfig" [ label="InitConfig" penwidth="1.5" tooltip="github.com/johncoker233/frpaaa/conf.InitConfig | defined in settings.go:48" fillcolor="moccasin" ]
         
     }
 
-        subgraph "cluster_github.com/EquaApps/frp/models" {
+        subgraph "cluster_github.com/johncoker233/frpaaa/models" {
         fontsize="16";
 fillcolor="lightyellow";
 label="models";
-URL="/?f=github.com/EquaApps/frp/models";
-tooltip="package: github.com/EquaApps/frp/models";
+URL="/?f=github.com/johncoker233/frpaaa/models";
+tooltip="package: github.com/johncoker233/frpaaa/models";
 penwidth="0.8";
 style="filled";
 fontname="Tahoma bold";
 rank="sink";
         
-        "github.com/EquaApps/frp/models.MustInitDBManager" [ fillcolor="moccasin" label="MustInitDBManager" penwidth="1.5" tooltip="github.com/EquaApps/frp/models.MustInitDBManager | defined in db.go:39" ]
-        "github.com/EquaApps/frp/models.GetDBManager" [ fillcolor="moccasin" label="GetDBManager" penwidth="1.5" tooltip="github.com/EquaApps/frp/models.GetDBManager | defined in db.go:55" ]
-        "(*github.com/EquaApps/frp/models.dbManagerImpl).Init" [ fillcolor="moccasin" label="(*dbManagerImpl).Init" penwidth="1.5" tooltip="(*github.com/EquaApps/frp/models.dbManagerImpl).Init | defined in db.go:21" ]
-        "(*github.com/EquaApps/frp/models.dbManagerImpl).SetDB" [ fillcolor="moccasin" label="(*dbManagerImpl).SetDB" penwidth="1.5" tooltip="(*github.com/EquaApps/frp/models.dbManagerImpl).SetDB | defined in db.go:66" ]
+        "github.com/johncoker233/frpaaa/models.MustInitDBManager" [ fillcolor="moccasin" label="MustInitDBManager" penwidth="1.5" tooltip="github.com/johncoker233/frpaaa/models.MustInitDBManager | defined in db.go:39" ]
+        "github.com/johncoker233/frpaaa/models.GetDBManager" [ fillcolor="moccasin" label="GetDBManager" penwidth="1.5" tooltip="github.com/johncoker233/frpaaa/models.GetDBManager | defined in db.go:55" ]
+        "(*github.com/johncoker233/frpaaa/models.dbManagerImpl).Init" [ fillcolor="moccasin" label="(*dbManagerImpl).Init" penwidth="1.5" tooltip="(*github.com/johncoker233/frpaaa/models.dbManagerImpl).Init | defined in db.go:21" ]
+        "(*github.com/johncoker233/frpaaa/models.dbManagerImpl).SetDB" [ fillcolor="moccasin" label="(*dbManagerImpl).SetDB" penwidth="1.5" tooltip="(*github.com/johncoker233/frpaaa/models.dbManagerImpl).SetDB | defined in db.go:66" ]
         
     }
 
-        subgraph "cluster_github.com/EquaApps/frp/rpc" {
+        subgraph "cluster_github.com/johncoker233/frpaaa/rpc" {
         style="filled";
 fontname="Tahoma bold";
-tooltip="package: github.com/EquaApps/frp/rpc";
+tooltip="package: github.com/johncoker233/frpaaa/rpc";
 penwidth="0.8";
 fillcolor="lightyellow";
 rank="sink";
 label="rpc";
-URL="/?f=github.com/EquaApps/frp/rpc";
+URL="/?f=github.com/johncoker233/frpaaa/rpc";
 fontsize="16";
         
-        "github.com/EquaApps/frp/rpc.InitRPCClients" [ penwidth="1.5" tooltip="github.com/EquaApps/frp/rpc.InitRPCClients | defined in init.go:3" fillcolor="moccasin" label="InitRPCClients" ]
+        "github.com/johncoker233/frpaaa/rpc.InitRPCClients" [ penwidth="1.5" tooltip="github.com/johncoker233/frpaaa/rpc.InitRPCClients | defined in init.go:3" fillcolor="moccasin" label="InitRPCClients" ]
         
     }
 
-        subgraph "cluster_github.com/EquaApps/frp/services/api" {
-        URL="/?f=github.com/EquaApps/frp/services/api";
+        subgraph "cluster_github.com/johncoker233/frpaaa/services/api" {
+        URL="/?f=github.com/johncoker233/frpaaa/services/api";
 penwidth="0.8";
 fontsize="16";
 rank="sink";
@@ -170,15 +170,15 @@ label="api";
 style="filled";
 fillcolor="lightyellow";
 fontname="Tahoma bold";
-tooltip="package: github.com/EquaApps/frp/services/api";
+tooltip="package: github.com/johncoker233/frpaaa/services/api";
         
-        "github.com/EquaApps/frp/services/api.MustInitApiService" [ tooltip="github.com/EquaApps/frp/services/api.MustInitApiService | defined in service.go:29" fillcolor="moccasin" label="MustInitApiService" penwidth="1.5" ]
-        "github.com/EquaApps/frp/services/api.GetAPIService" [ fillcolor="moccasin" label="GetAPIService" penwidth="1.5" tooltip="github.com/EquaApps/frp/services/api.GetAPIService | defined in service.go:33" ]
-        "(*github.com/EquaApps/frp/services/api.server).Stop" [ tooltip="(*github.com/EquaApps/frp/services/api.server).Stop | defined in service.go:41" fillcolor="moccasin" label="(*server).Stop" penwidth="1.5" ]
+        "github.com/johncoker233/frpaaa/services/api.MustInitApiService" [ tooltip="github.com/johncoker233/frpaaa/services/api.MustInitApiService | defined in service.go:29" fillcolor="moccasin" label="MustInitApiService" penwidth="1.5" ]
+        "github.com/johncoker233/frpaaa/services/api.GetAPIService" [ fillcolor="moccasin" label="GetAPIService" penwidth="1.5" tooltip="github.com/johncoker233/frpaaa/services/api.GetAPIService | defined in service.go:33" ]
+        "(*github.com/johncoker233/frpaaa/services/api.server).Stop" [ tooltip="(*github.com/johncoker233/frpaaa/services/api.server).Stop | defined in service.go:41" fillcolor="moccasin" label="(*server).Stop" penwidth="1.5" ]
         
     }
 
-        subgraph "cluster_github.com/EquaApps/frp/services/master" {
+        subgraph "cluster_github.com/johncoker233/frpaaa/services/master" {
         style="filled";
 fillcolor="lightyellow";
 rank="sink";
@@ -186,33 +186,33 @@ label="master";
 penwidth="0.8";
 fontsize="16";
 fontname="Tahoma bold";
-URL="/?f=github.com/EquaApps/frp/services/master";
-tooltip="package: github.com/EquaApps/frp/services/master";
+URL="/?f=github.com/johncoker233/frpaaa/services/master";
+tooltip="package: github.com/johncoker233/frpaaa/services/master";
         
-        "github.com/EquaApps/frp/services/master.MustInitMasterService" [ fillcolor="moccasin" label="MustInitMasterService" penwidth="1.5" tooltip="github.com/EquaApps/frp/services/master.MustInitMasterService | defined in grpc_service.go:21" ]
-        "github.com/EquaApps/frp/services/master.GetMasterSerivce" [ fillcolor="moccasin" label="GetMasterSerivce" penwidth="1.5" tooltip="github.com/EquaApps/frp/services/master.GetMasterSerivce | defined in grpc_service.go:29" ]
+        "github.com/johncoker233/frpaaa/services/master.MustInitMasterService" [ fillcolor="moccasin" label="MustInitMasterService" penwidth="1.5" tooltip="github.com/johncoker233/frpaaa/services/master.MustInitMasterService | defined in grpc_service.go:21" ]
+        "github.com/johncoker233/frpaaa/services/master.GetMasterSerivce" [ fillcolor="moccasin" label="GetMasterSerivce" penwidth="1.5" tooltip="github.com/johncoker233/frpaaa/services/master.GetMasterSerivce | defined in grpc_service.go:29" ]
         
     }
 
-        subgraph "cluster_github.com/EquaApps/frp/services/rpcclient" {
+        subgraph "cluster_github.com/johncoker233/frpaaa/services/rpcclient" {
         fontsize="16";
 fontname="Tahoma bold";
-URL="/?f=github.com/EquaApps/frp/services/rpcclient";
-tooltip="package: github.com/EquaApps/frp/services/rpcclient";
+URL="/?f=github.com/johncoker233/frpaaa/services/rpcclient";
+tooltip="package: github.com/johncoker233/frpaaa/services/rpcclient";
 penwidth="0.8";
 fillcolor="lightyellow";
 rank="sink";
 label="rpcclient";
 style="filled";
         
-        "github.com/EquaApps/frp/services/rpcclient.MustInitClientRPCSerivce" [ penwidth="1.5" tooltip="github.com/EquaApps/frp/services/rpcclient.MustInitClientRPCSerivce | defined in rpc_service.go:27" fillcolor="moccasin" label="MustInitClientRPCSerivce" ]
-        "github.com/EquaApps/frp/services/rpcclient.GetClientRPCSerivce" [ tooltip="github.com/EquaApps/frp/services/rpcclient.GetClientRPCSerivce | defined in rpc_service.go:35" fillcolor="moccasin" label="GetClientRPCSerivce" penwidth="1.5" ]
-        "(*github.com/EquaApps/frp/services/rpcclient.ClientRPC).Stop" [ fillcolor="moccasin" label="(*ClientRPC).Stop" penwidth="1.5" tooltip="(*github.com/EquaApps/frp/services/rpcclient.ClientRPC).Stop | defined in rpc_service.go:62" ]
+        "github.com/johncoker233/frpaaa/services/rpcclient.MustInitClientRPCSerivce" [ penwidth="1.5" tooltip="github.com/johncoker233/frpaaa/services/rpcclient.MustInitClientRPCSerivce | defined in rpc_service.go:27" fillcolor="moccasin" label="MustInitClientRPCSerivce" ]
+        "github.com/johncoker233/frpaaa/services/rpcclient.GetClientRPCSerivce" [ tooltip="github.com/johncoker233/frpaaa/services/rpcclient.GetClientRPCSerivce | defined in rpc_service.go:35" fillcolor="moccasin" label="GetClientRPCSerivce" penwidth="1.5" ]
+        "(*github.com/johncoker233/frpaaa/services/rpcclient.ClientRPC).Stop" [ fillcolor="moccasin" label="(*ClientRPC).Stop" penwidth="1.5" tooltip="(*github.com/johncoker233/frpaaa/services/rpcclient.ClientRPC).Stop | defined in rpc_service.go:62" ]
         
     }
 
-        subgraph "cluster_github.com/EquaApps/frp/services/server" {
-        tooltip="package: github.com/EquaApps/frp/services/server";
+        subgraph "cluster_github.com/johncoker233/frpaaa/services/server" {
+        tooltip="package: github.com/johncoker233/frpaaa/services/server";
 fontsize="16";
 style="filled";
 fontname="Tahoma bold";
@@ -220,90 +220,90 @@ label="server";
 penwidth="0.8";
 fillcolor="lightyellow";
 rank="sink";
-URL="/?f=github.com/EquaApps/frp/services/server";
+URL="/?f=github.com/johncoker233/frpaaa/services/server";
         
-        "github.com/EquaApps/frp/services/server.GetServerSerivce" [ penwidth="1.5" tooltip="github.com/EquaApps/frp/services/server.GetServerSerivce | defined in frps_service.go:45" fillcolor="moccasin" label="GetServerSerivce" ]
+        "github.com/johncoker233/frpaaa/services/server.GetServerSerivce" [ penwidth="1.5" tooltip="github.com/johncoker233/frpaaa/services/server.GetServerSerivce | defined in frps_service.go:45" fillcolor="moccasin" label="GetServerSerivce" ]
         
     }
 
-        subgraph "cluster_github.com/EquaApps/frp/utils" {
+        subgraph "cluster_github.com/johncoker233/frpaaa/utils" {
         penwidth="0.8";
 fontsize="16";
 style="filled";
 fillcolor="lightyellow";
-URL="/?f=github.com/EquaApps/frp/utils";
+URL="/?f=github.com/johncoker233/frpaaa/utils";
 fontname="Tahoma bold";
 rank="sink";
 label="utils";
-tooltip="package: github.com/EquaApps/frp/utils";
+tooltip="package: github.com/johncoker233/frpaaa/utils";
         
-        "github.com/EquaApps/frp/utils.NewBaseFRPServerUserAuthConfig" [ penwidth="1.5" tooltip="github.com/EquaApps/frp/utils.NewBaseFRPServerUserAuthConfig | defined in frp_config.go:19" fillcolor="moccasin" label="NewBaseFRPServerUserAuthConfig" ]
-        "github.com/EquaApps/frp/utils.MD5" [ label="MD5" penwidth="1.5" tooltip="github.com/EquaApps/frp/utils.MD5 | defined in hash.go:12" fillcolor="moccasin" ]
+        "github.com/johncoker233/frpaaa/utils.NewBaseFRPServerUserAuthConfig" [ penwidth="1.5" tooltip="github.com/johncoker233/frpaaa/utils.NewBaseFRPServerUserAuthConfig | defined in frp_config.go:19" fillcolor="moccasin" label="NewBaseFRPServerUserAuthConfig" ]
+        "github.com/johncoker233/frpaaa/utils.MD5" [ label="MD5" penwidth="1.5" tooltip="github.com/johncoker233/frpaaa/utils.MD5 | defined in hash.go:12" fillcolor="moccasin" ]
         
     }
 
-        subgraph "cluster_github.com/EquaApps/frp/watcher" {
+        subgraph "cluster_github.com/johncoker233/frpaaa/watcher" {
         style="filled";
 fillcolor="lightyellow";
 fontname="Tahoma bold";
 rank="sink";
 label="watcher";
 penwidth="0.8";
-URL="/?f=github.com/EquaApps/frp/watcher";
-tooltip="package: github.com/EquaApps/frp/watcher";
+URL="/?f=github.com/johncoker233/frpaaa/watcher";
+tooltip="package: github.com/johncoker233/frpaaa/watcher";
 fontsize="16";
         
-        "github.com/EquaApps/frp/watcher.NewClient" [ fillcolor="moccasin" label="NewClient" penwidth="1.5" tooltip="github.com/EquaApps/frp/watcher.NewClient | defined in client.go:17" ]
-        "(*github.com/EquaApps/frp/watcher.client).Stop" [ fillcolor="moccasin" label="(*client).Stop" penwidth="1.5" tooltip="(*github.com/EquaApps/frp/watcher.client).Stop | defined in client.go:40" ]
+        "github.com/johncoker233/frpaaa/watcher.NewClient" [ fillcolor="moccasin" label="NewClient" penwidth="1.5" tooltip="github.com/johncoker233/frpaaa/watcher.NewClient | defined in client.go:17" ]
+        "(*github.com/johncoker233/frpaaa/watcher.client).Stop" [ fillcolor="moccasin" label="(*client).Stop" penwidth="1.5" tooltip="(*github.com/johncoker233/frpaaa/watcher.client).Stop | defined in client.go:40" ]
         
     }
 
     }
 
-    "github.com/EquaApps/frp/cmd.runClient" -> "github.com/EquaApps/frp/watcher.NewClient" [ color="saddlebrown" tooltip="at client.go:31: calling [github.com/EquaApps/frp/watcher.NewClient]" ]
-    "github.com/EquaApps/frp/cmd.initClientOnce" -> "github.com/EquaApps/frp/biz/client.PullConfig" [ color="saddlebrown" tooltip="at client.go:43: calling [github.com/EquaApps/frp/biz/client.PullConfig]" ]
-    "github.com/EquaApps/frp/cmd.runServer" -> "(*github.com/EquaApps/frp/watcher.client).Stop" [ color="saddlebrown" tooltip="at server.go:38: calling [(*github.com/EquaApps/frp/watcher.client).Stop]" style="dashed" arrowhead="normalnoneodiamond" ]
-    "github.com/EquaApps/frp/cmd.runMaster" -> "github.com/EquaApps/frp/conf.FRPsAuthOption" [ color="saddlebrown" tooltip="at master.go:34: calling [github.com/EquaApps/frp/conf.FRPsAuthOption]" ]
-    "github.com/EquaApps/frp/cmd.runClient" -> "github.com/EquaApps/frp/cmd.initClientOnce" [ tooltip="at client.go:34: calling [github.com/EquaApps/frp/cmd.initClientOnce]" ]
-    "github.com/EquaApps/frp/cmd.runServer" -> "github.com/EquaApps/frp/watcher.NewClient" [ color="saddlebrown" tooltip="at server.go:37: calling [github.com/EquaApps/frp/watcher.NewClient]" ]
-    "github.com/EquaApps/frp/cmd.initCommand$2" -> "github.com/EquaApps/frp/cmd.runServer" [ tooltip="at cmd.go:38: calling [github.com/EquaApps/frp/cmd.runServer]" ]
-    "github.com/EquaApps/frp/cmd.runMaster" -> "github.com/EquaApps/frp/biz/master/auth.InitAuth" [ color="saddlebrown" tooltip="at master.go:28: calling [github.com/EquaApps/frp/biz/master/auth.InitAuth]" ]
-    "github.com/EquaApps/frp/cmd.main" -> "github.com/EquaApps/frp/utils.MD5" [ color="saddlebrown" tooltip="at main.go:16: calling [github.com/EquaApps/frp/utils.MD5]" ]
-    "github.com/EquaApps/frp/cmd.runMaster" -> "github.com/EquaApps/frp/services/server.GetServerSerivce" [ color="saddlebrown" tooltip="at master.go:37: calling [github.com/EquaApps/frp/services/server.GetServerSerivce]" ]
-    "github.com/EquaApps/frp/cmd.main" -> "github.com/EquaApps/frp/conf.InitConfig" [ color="saddlebrown" tooltip="at main.go:13: calling [github.com/EquaApps/frp/conf.InitConfig]" ]
-    "github.com/EquaApps/frp/cmd.runClient" -> "github.com/EquaApps/frp/services/rpcclient.GetClientRPCSerivce" [ color="saddlebrown" tooltip="at client.go:28: calling [github.com/EquaApps/frp/services/rpcclient.GetClientRPCSerivce]" ]
-    "github.com/EquaApps/frp/cmd.runClient" -> "(*github.com/EquaApps/frp/services/rpcclient.ClientRPC).Stop" [ style="dashed" arrowhead="normalnoneodiamond" color="saddlebrown" tooltip="at client.go:29: calling [(*github.com/EquaApps/frp/services/rpcclient.ClientRPC).Stop]" ]
-    "github.com/EquaApps/frp/cmd.runServer" -> "(*github.com/EquaApps/frp/services/rpcclient.ClientRPC).Stop" [ style="dashed" arrowhead="normalnoneodiamond" color="saddlebrown" tooltip="at server.go:35: calling [(*github.com/EquaApps/frp/services/rpcclient.ClientRPC).Stop]" ]
-    "github.com/EquaApps/frp/cmd.runMaster" -> "github.com/EquaApps/frp/biz/master.NewRouter" [ color="saddlebrown" tooltip="at master.go:23: calling [github.com/EquaApps/frp/biz/master.NewRouter]" ]
-    "github.com/EquaApps/frp/cmd.initDatabase" -> "github.com/EquaApps/frp/conf.Get" [ tooltip="at master.go:48: calling [github.com/EquaApps/frp/conf.Get]\nat master.go:49: calling [github.com/EquaApps/frp/conf.Get]\nat master.go:51: calling [github.com/EquaApps/frp/conf.Get]\nat master.go:53: calling [github.com/EquaApps/frp/conf.Get]\nat master.go:60: calling [github.com/EquaApps/frp/conf.Get]\nat master.go:57: calling [github.com/EquaApps/frp/conf.Get]" color="saddlebrown" ]
-    "github.com/EquaApps/frp/cmd.initDatabase" -> "github.com/EquaApps/frp/models.GetDBManager" [ color="saddlebrown" tooltip="at master.go:63: calling [github.com/EquaApps/frp/models.GetDBManager]\nat master.go:56: calling [github.com/EquaApps/frp/models.GetDBManager]" ]
-    "github.com/EquaApps/frp/cmd.main" -> "github.com/EquaApps/frp/rpc.InitRPCClients" [ color="saddlebrown" tooltip="at main.go:14: calling [github.com/EquaApps/frp/rpc.InitRPCClients]" ]
-    "github.com/EquaApps/frp/cmd.main" -> "github.com/EquaApps/frp/conf.Get" [ tooltip="at main.go:16: calling [github.com/EquaApps/frp/conf.Get]" color="saddlebrown" ]
-    "github.com/EquaApps/frp/cmd.runMaster" -> "github.com/EquaApps/frp/utils.NewBaseFRPServerUserAuthConfig" [ color="saddlebrown" tooltip="at master.go:32: calling [github.com/EquaApps/frp/utils.NewBaseFRPServerUserAuthConfig]" ]
-    "github.com/EquaApps/frp/cmd.runClient" -> "github.com/EquaApps/frp/services/rpcclient.MustInitClientRPCSerivce" [ color="saddlebrown" tooltip="at client.go:22: calling [github.com/EquaApps/frp/services/rpcclient.MustInitClientRPCSerivce]" ]
-    "github.com/EquaApps/frp/cmd.runMaster" -> "github.com/EquaApps/frp/services/master.MustInitMasterService" [ color="saddlebrown" tooltip="at master.go:21: calling [github.com/EquaApps/frp/services/master.MustInitMasterService]" ]
-    "github.com/EquaApps/frp/cmd.runMaster" -> "github.com/EquaApps/frp/services/api.MustInitApiService" [ color="saddlebrown" tooltip="at master.go:24: calling [github.com/EquaApps/frp/services/api.MustInitApiService]" ]
-    "github.com/EquaApps/frp/cmd.initDatabase" -> "github.com/EquaApps/frp/models.MustInitDBManager" [ tooltip="at master.go:49: calling [github.com/EquaApps/frp/models.MustInitDBManager]" color="saddlebrown" ]
-    "github.com/EquaApps/frp/cmd.runMaster" -> "github.com/EquaApps/frp/cmd.initDatabase" [ tooltip="at master.go:26: calling [github.com/EquaApps/frp/cmd.initDatabase]" ]
-    "github.com/EquaApps/frp/cmd.runMaster" -> "github.com/EquaApps/frp/conf.Get" [ color="saddlebrown" tooltip="at master.go:33: calling [github.com/EquaApps/frp/conf.Get]" ]
-    "github.com/EquaApps/frp/cmd.initCommand$3" -> "github.com/EquaApps/frp/cmd.runMaster" [ tooltip="at cmd.go:45: calling [github.com/EquaApps/frp/cmd.runMaster]" ]
-    "github.com/EquaApps/frp/cmd.main" -> "github.com/EquaApps/frp/cmd.initCommand" [ tooltip="at main.go:12: calling [github.com/EquaApps/frp/cmd.initCommand]" ]
-    "github.com/EquaApps/frp/cmd.runServer" -> "github.com/EquaApps/frp/conf.ServerAPIListenAddr" [ color="saddlebrown" tooltip="at server.go:22: calling [github.com/EquaApps/frp/conf.ServerAPIListenAddr]" ]
-    "github.com/EquaApps/frp/cmd.runServer" -> "github.com/EquaApps/frp/services/api.GetAPIService" [ color="saddlebrown" tooltip="at server.go:24: calling [github.com/EquaApps/frp/services/api.GetAPIService]" ]
-    "github.com/EquaApps/frp/cmd.initServerOnce" -> "github.com/EquaApps/frp/biz/server.PullConfig" [ color="saddlebrown" tooltip="at server.go:50: calling [github.com/EquaApps/frp/biz/server.PullConfig]" ]
-    "github.com/EquaApps/frp/cmd.runServer" -> "(*github.com/EquaApps/frp/services/api.server).Stop" [ color="saddlebrown" tooltip="at server.go:25: calling [(*github.com/EquaApps/frp/services/api.server).Stop]" style="dashed" arrowhead="normalnoneodiamond" ]
-    "github.com/EquaApps/frp/cmd.initDatabase" -> "(*github.com/EquaApps/frp/models.dbManagerImpl).SetDB" [ style="dashed" color="saddlebrown" tooltip="at master.go:56: calling [(*github.com/EquaApps/frp/models.dbManagerImpl).SetDB]" ]
-    "github.com/EquaApps/frp/cmd.runMaster" -> "github.com/EquaApps/frp/cache.InitCache" [ color="saddlebrown" tooltip="at master.go:27: calling [github.com/EquaApps/frp/cache.InitCache]" ]
-    "github.com/EquaApps/frp/cmd.runClient" -> "(*github.com/EquaApps/frp/watcher.client).Stop" [ tooltip="at client.go:32: calling [(*github.com/EquaApps/frp/watcher.client).Stop]" style="dashed" arrowhead="normalnoneodiamond" color="saddlebrown" ]
-    "github.com/EquaApps/frp/cmd.runServer" -> "github.com/EquaApps/frp/biz/server.NewRouter" [ color="saddlebrown" tooltip="at server.go:21: calling [github.com/EquaApps/frp/biz/server.NewRouter]" ]
-    "github.com/EquaApps/frp/cmd.runServer" -> "github.com/EquaApps/frp/services/api.MustInitApiService" [ color="saddlebrown" tooltip="at server.go:22: calling [github.com/EquaApps/frp/services/api.MustInitApiService]" ]
-    "github.com/EquaApps/frp/cmd.initDatabase" -> "(*github.com/EquaApps/frp/models.dbManagerImpl).Init" [ tooltip="at master.go:63: calling [(*github.com/EquaApps/frp/models.dbManagerImpl).Init]" style="dashed" color="saddlebrown" ]
-    "github.com/EquaApps/frp/cmd.initCommand$1" -> "github.com/EquaApps/frp/cmd.runClient" [ tooltip="at cmd.go:31: calling [github.com/EquaApps/frp/cmd.runClient]" ]
-    "github.com/EquaApps/frp/cmd.runServer" -> "github.com/EquaApps/frp/cmd.initServerOnce" [ tooltip="at server.go:40: calling [github.com/EquaApps/frp/cmd.initServerOnce]" ]
-    "github.com/EquaApps/frp/cmd.runMaster" -> "github.com/EquaApps/frp/conf.MasterAPIListenAddr" [ color="saddlebrown" tooltip="at master.go:24: calling [github.com/EquaApps/frp/conf.MasterAPIListenAddr]" ]
-    "github.com/EquaApps/frp/cmd.main" -> "github.com/EquaApps/frp/cmd.initLogger" [ tooltip="at main.go:11: calling [github.com/EquaApps/frp/cmd.initLogger]" ]
-    "github.com/EquaApps/frp/cmd.runServer" -> "github.com/EquaApps/frp/services/rpcclient.MustInitClientRPCSerivce" [ color="saddlebrown" tooltip="at server.go:27: calling [github.com/EquaApps/frp/services/rpcclient.MustInitClientRPCSerivce]" ]
-    "github.com/EquaApps/frp/cmd.runServer" -> "github.com/EquaApps/frp/services/rpcclient.GetClientRPCSerivce" [ color="saddlebrown" tooltip="at server.go:34: calling [github.com/EquaApps/frp/services/rpcclient.GetClientRPCSerivce]" ]
-    "github.com/EquaApps/frp/cmd.runMaster" -> "github.com/EquaApps/frp/services/master.GetMasterSerivce" [ color="saddlebrown" tooltip="at master.go:31: calling [github.com/EquaApps/frp/services/master.GetMasterSerivce]" ]
-    "github.com/EquaApps/frp/cmd.runMaster" -> "github.com/EquaApps/frp/services/api.GetAPIService" [ color="saddlebrown" tooltip="at master.go:38: calling [github.com/EquaApps/frp/services/api.GetAPIService]" ]
+    "github.com/johncoker233/frpaaa/cmd.runClient" -> "github.com/johncoker233/frpaaa/watcher.NewClient" [ color="saddlebrown" tooltip="at client.go:31: calling [github.com/johncoker233/frpaaa/watcher.NewClient]" ]
+    "github.com/johncoker233/frpaaa/cmd.initClientOnce" -> "github.com/johncoker233/frpaaa/biz/client.PullConfig" [ color="saddlebrown" tooltip="at client.go:43: calling [github.com/johncoker233/frpaaa/biz/client.PullConfig]" ]
+    "github.com/johncoker233/frpaaa/cmd.runServer" -> "(*github.com/johncoker233/frpaaa/watcher.client).Stop" [ color="saddlebrown" tooltip="at server.go:38: calling [(*github.com/johncoker233/frpaaa/watcher.client).Stop]" style="dashed" arrowhead="normalnoneodiamond" ]
+    "github.com/johncoker233/frpaaa/cmd.runMaster" -> "github.com/johncoker233/frpaaa/conf.FRPsAuthOption" [ color="saddlebrown" tooltip="at master.go:34: calling [github.com/johncoker233/frpaaa/conf.FRPsAuthOption]" ]
+    "github.com/johncoker233/frpaaa/cmd.runClient" -> "github.com/johncoker233/frpaaa/cmd.initClientOnce" [ tooltip="at client.go:34: calling [github.com/johncoker233/frpaaa/cmd.initClientOnce]" ]
+    "github.com/johncoker233/frpaaa/cmd.runServer" -> "github.com/johncoker233/frpaaa/watcher.NewClient" [ color="saddlebrown" tooltip="at server.go:37: calling [github.com/johncoker233/frpaaa/watcher.NewClient]" ]
+    "github.com/johncoker233/frpaaa/cmd.initCommand$2" -> "github.com/johncoker233/frpaaa/cmd.runServer" [ tooltip="at cmd.go:38: calling [github.com/johncoker233/frpaaa/cmd.runServer]" ]
+    "github.com/johncoker233/frpaaa/cmd.runMaster" -> "github.com/johncoker233/frpaaa/biz/master/auth.InitAuth" [ color="saddlebrown" tooltip="at master.go:28: calling [github.com/johncoker233/frpaaa/biz/master/auth.InitAuth]" ]
+    "github.com/johncoker233/frpaaa/cmd.main" -> "github.com/johncoker233/frpaaa/utils.MD5" [ color="saddlebrown" tooltip="at main.go:16: calling [github.com/johncoker233/frpaaa/utils.MD5]" ]
+    "github.com/johncoker233/frpaaa/cmd.runMaster" -> "github.com/johncoker233/frpaaa/services/server.GetServerSerivce" [ color="saddlebrown" tooltip="at master.go:37: calling [github.com/johncoker233/frpaaa/services/server.GetServerSerivce]" ]
+    "github.com/johncoker233/frpaaa/cmd.main" -> "github.com/johncoker233/frpaaa/conf.InitConfig" [ color="saddlebrown" tooltip="at main.go:13: calling [github.com/johncoker233/frpaaa/conf.InitConfig]" ]
+    "github.com/johncoker233/frpaaa/cmd.runClient" -> "github.com/johncoker233/frpaaa/services/rpcclient.GetClientRPCSerivce" [ color="saddlebrown" tooltip="at client.go:28: calling [github.com/johncoker233/frpaaa/services/rpcclient.GetClientRPCSerivce]" ]
+    "github.com/johncoker233/frpaaa/cmd.runClient" -> "(*github.com/johncoker233/frpaaa/services/rpcclient.ClientRPC).Stop" [ style="dashed" arrowhead="normalnoneodiamond" color="saddlebrown" tooltip="at client.go:29: calling [(*github.com/johncoker233/frpaaa/services/rpcclient.ClientRPC).Stop]" ]
+    "github.com/johncoker233/frpaaa/cmd.runServer" -> "(*github.com/johncoker233/frpaaa/services/rpcclient.ClientRPC).Stop" [ style="dashed" arrowhead="normalnoneodiamond" color="saddlebrown" tooltip="at server.go:35: calling [(*github.com/johncoker233/frpaaa/services/rpcclient.ClientRPC).Stop]" ]
+    "github.com/johncoker233/frpaaa/cmd.runMaster" -> "github.com/johncoker233/frpaaa/biz/master.NewRouter" [ color="saddlebrown" tooltip="at master.go:23: calling [github.com/johncoker233/frpaaa/biz/master.NewRouter]" ]
+    "github.com/johncoker233/frpaaa/cmd.initDatabase" -> "github.com/johncoker233/frpaaa/conf.Get" [ tooltip="at master.go:48: calling [github.com/johncoker233/frpaaa/conf.Get]\nat master.go:49: calling [github.com/johncoker233/frpaaa/conf.Get]\nat master.go:51: calling [github.com/johncoker233/frpaaa/conf.Get]\nat master.go:53: calling [github.com/johncoker233/frpaaa/conf.Get]\nat master.go:60: calling [github.com/johncoker233/frpaaa/conf.Get]\nat master.go:57: calling [github.com/johncoker233/frpaaa/conf.Get]" color="saddlebrown" ]
+    "github.com/johncoker233/frpaaa/cmd.initDatabase" -> "github.com/johncoker233/frpaaa/models.GetDBManager" [ color="saddlebrown" tooltip="at master.go:63: calling [github.com/johncoker233/frpaaa/models.GetDBManager]\nat master.go:56: calling [github.com/johncoker233/frpaaa/models.GetDBManager]" ]
+    "github.com/johncoker233/frpaaa/cmd.main" -> "github.com/johncoker233/frpaaa/rpc.InitRPCClients" [ color="saddlebrown" tooltip="at main.go:14: calling [github.com/johncoker233/frpaaa/rpc.InitRPCClients]" ]
+    "github.com/johncoker233/frpaaa/cmd.main" -> "github.com/johncoker233/frpaaa/conf.Get" [ tooltip="at main.go:16: calling [github.com/johncoker233/frpaaa/conf.Get]" color="saddlebrown" ]
+    "github.com/johncoker233/frpaaa/cmd.runMaster" -> "github.com/johncoker233/frpaaa/utils.NewBaseFRPServerUserAuthConfig" [ color="saddlebrown" tooltip="at master.go:32: calling [github.com/johncoker233/frpaaa/utils.NewBaseFRPServerUserAuthConfig]" ]
+    "github.com/johncoker233/frpaaa/cmd.runClient" -> "github.com/johncoker233/frpaaa/services/rpcclient.MustInitClientRPCSerivce" [ color="saddlebrown" tooltip="at client.go:22: calling [github.com/johncoker233/frpaaa/services/rpcclient.MustInitClientRPCSerivce]" ]
+    "github.com/johncoker233/frpaaa/cmd.runMaster" -> "github.com/johncoker233/frpaaa/services/master.MustInitMasterService" [ color="saddlebrown" tooltip="at master.go:21: calling [github.com/johncoker233/frpaaa/services/master.MustInitMasterService]" ]
+    "github.com/johncoker233/frpaaa/cmd.runMaster" -> "github.com/johncoker233/frpaaa/services/api.MustInitApiService" [ color="saddlebrown" tooltip="at master.go:24: calling [github.com/johncoker233/frpaaa/services/api.MustInitApiService]" ]
+    "github.com/johncoker233/frpaaa/cmd.initDatabase" -> "github.com/johncoker233/frpaaa/models.MustInitDBManager" [ tooltip="at master.go:49: calling [github.com/johncoker233/frpaaa/models.MustInitDBManager]" color="saddlebrown" ]
+    "github.com/johncoker233/frpaaa/cmd.runMaster" -> "github.com/johncoker233/frpaaa/cmd.initDatabase" [ tooltip="at master.go:26: calling [github.com/johncoker233/frpaaa/cmd.initDatabase]" ]
+    "github.com/johncoker233/frpaaa/cmd.runMaster" -> "github.com/johncoker233/frpaaa/conf.Get" [ color="saddlebrown" tooltip="at master.go:33: calling [github.com/johncoker233/frpaaa/conf.Get]" ]
+    "github.com/johncoker233/frpaaa/cmd.initCommand$3" -> "github.com/johncoker233/frpaaa/cmd.runMaster" [ tooltip="at cmd.go:45: calling [github.com/johncoker233/frpaaa/cmd.runMaster]" ]
+    "github.com/johncoker233/frpaaa/cmd.main" -> "github.com/johncoker233/frpaaa/cmd.initCommand" [ tooltip="at main.go:12: calling [github.com/johncoker233/frpaaa/cmd.initCommand]" ]
+    "github.com/johncoker233/frpaaa/cmd.runServer" -> "github.com/johncoker233/frpaaa/conf.ServerAPIListenAddr" [ color="saddlebrown" tooltip="at server.go:22: calling [github.com/johncoker233/frpaaa/conf.ServerAPIListenAddr]" ]
+    "github.com/johncoker233/frpaaa/cmd.runServer" -> "github.com/johncoker233/frpaaa/services/api.GetAPIService" [ color="saddlebrown" tooltip="at server.go:24: calling [github.com/johncoker233/frpaaa/services/api.GetAPIService]" ]
+    "github.com/johncoker233/frpaaa/cmd.initServerOnce" -> "github.com/johncoker233/frpaaa/biz/server.PullConfig" [ color="saddlebrown" tooltip="at server.go:50: calling [github.com/johncoker233/frpaaa/biz/server.PullConfig]" ]
+    "github.com/johncoker233/frpaaa/cmd.runServer" -> "(*github.com/johncoker233/frpaaa/services/api.server).Stop" [ color="saddlebrown" tooltip="at server.go:25: calling [(*github.com/johncoker233/frpaaa/services/api.server).Stop]" style="dashed" arrowhead="normalnoneodiamond" ]
+    "github.com/johncoker233/frpaaa/cmd.initDatabase" -> "(*github.com/johncoker233/frpaaa/models.dbManagerImpl).SetDB" [ style="dashed" color="saddlebrown" tooltip="at master.go:56: calling [(*github.com/johncoker233/frpaaa/models.dbManagerImpl).SetDB]" ]
+    "github.com/johncoker233/frpaaa/cmd.runMaster" -> "github.com/johncoker233/frpaaa/cache.InitCache" [ color="saddlebrown" tooltip="at master.go:27: calling [github.com/johncoker233/frpaaa/cache.InitCache]" ]
+    "github.com/johncoker233/frpaaa/cmd.runClient" -> "(*github.com/johncoker233/frpaaa/watcher.client).Stop" [ tooltip="at client.go:32: calling [(*github.com/johncoker233/frpaaa/watcher.client).Stop]" style="dashed" arrowhead="normalnoneodiamond" color="saddlebrown" ]
+    "github.com/johncoker233/frpaaa/cmd.runServer" -> "github.com/johncoker233/frpaaa/biz/server.NewRouter" [ color="saddlebrown" tooltip="at server.go:21: calling [github.com/johncoker233/frpaaa/biz/server.NewRouter]" ]
+    "github.com/johncoker233/frpaaa/cmd.runServer" -> "github.com/johncoker233/frpaaa/services/api.MustInitApiService" [ color="saddlebrown" tooltip="at server.go:22: calling [github.com/johncoker233/frpaaa/services/api.MustInitApiService]" ]
+    "github.com/johncoker233/frpaaa/cmd.initDatabase" -> "(*github.com/johncoker233/frpaaa/models.dbManagerImpl).Init" [ tooltip="at master.go:63: calling [(*github.com/johncoker233/frpaaa/models.dbManagerImpl).Init]" style="dashed" color="saddlebrown" ]
+    "github.com/johncoker233/frpaaa/cmd.initCommand$1" -> "github.com/johncoker233/frpaaa/cmd.runClient" [ tooltip="at cmd.go:31: calling [github.com/johncoker233/frpaaa/cmd.runClient]" ]
+    "github.com/johncoker233/frpaaa/cmd.runServer" -> "github.com/johncoker233/frpaaa/cmd.initServerOnce" [ tooltip="at server.go:40: calling [github.com/johncoker233/frpaaa/cmd.initServerOnce]" ]
+    "github.com/johncoker233/frpaaa/cmd.runMaster" -> "github.com/johncoker233/frpaaa/conf.MasterAPIListenAddr" [ color="saddlebrown" tooltip="at master.go:24: calling [github.com/johncoker233/frpaaa/conf.MasterAPIListenAddr]" ]
+    "github.com/johncoker233/frpaaa/cmd.main" -> "github.com/johncoker233/frpaaa/cmd.initLogger" [ tooltip="at main.go:11: calling [github.com/johncoker233/frpaaa/cmd.initLogger]" ]
+    "github.com/johncoker233/frpaaa/cmd.runServer" -> "github.com/johncoker233/frpaaa/services/rpcclient.MustInitClientRPCSerivce" [ color="saddlebrown" tooltip="at server.go:27: calling [github.com/johncoker233/frpaaa/services/rpcclient.MustInitClientRPCSerivce]" ]
+    "github.com/johncoker233/frpaaa/cmd.runServer" -> "github.com/johncoker233/frpaaa/services/rpcclient.GetClientRPCSerivce" [ color="saddlebrown" tooltip="at server.go:34: calling [github.com/johncoker233/frpaaa/services/rpcclient.GetClientRPCSerivce]" ]
+    "github.com/johncoker233/frpaaa/cmd.runMaster" -> "github.com/johncoker233/frpaaa/services/master.GetMasterSerivce" [ color="saddlebrown" tooltip="at master.go:31: calling [github.com/johncoker233/frpaaa/services/master.GetMasterSerivce]" ]
+    "github.com/johncoker233/frpaaa/cmd.runMaster" -> "github.com/johncoker233/frpaaa/services/api.GetAPIService" [ color="saddlebrown" tooltip="at master.go:38: calling [github.com/johncoker233/frpaaa/services/api.GetAPIService]" ]
 }

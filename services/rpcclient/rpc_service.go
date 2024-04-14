@@ -1,7 +1,7 @@
 package rpcclient
 
 import (
-	"github.com/EquaApps/frp/pb"
+	"github.com/johncoker233/frpaaa/pb"
 	"github.com/sirupsen/logrus"
 )
 

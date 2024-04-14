@@ -3,8 +3,8 @@ package dao
 import (
 	"fmt"
 
-	"github.com/EquaApps/frp/common"
-	"github.com/EquaApps/frp/models"
+	"github.com/johncoker233/frpaaa/common"
+	"github.com/johncoker233/frpaaa/models"
 	"github.com/google/uuid"
 	"github.com/samber/lo"
 )
