@@ -3,7 +3,7 @@ package main
 import (
 	bizserver "github.com/VaalaCat/frp-panel/biz/server"
 	"github.com/VaalaCat/frp-panel/conf"
-	"github.com/VaalaCat/frp-panel/pb"
+	"github.com/EquaApps/frp/pb"
 	"github.com/VaalaCat/frp-panel/rpc"
 	"github.com/VaalaCat/frp-panel/services/api"
 	"github.com/VaalaCat/frp-panel/services/rpcclient"

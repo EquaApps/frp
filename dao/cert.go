@@ -8,7 +8,7 @@ import (
 	"crypto/x509"
 	"encoding/pem"
 
-	"github.com/VaalaCat/frp-panel/models"
+	"github.com/EquaApps/frp/models"
 	"github.com/VaalaCat/frp-panel/utils"
 	"github.com/sirupsen/logrus"
 	"google.golang.org/grpc/credentials"

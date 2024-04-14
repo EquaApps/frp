@@ -4,7 +4,7 @@ import (
 	"context"
 
 	"github.com/VaalaCat/frp-panel/conf"
-	"github.com/VaalaCat/frp-panel/pb"
+	"github.com/EquaApps/frp/pb"
 	"github.com/imroc/req/v3"
 	"google.golang.org/grpc"
 	"google.golang.org/protobuf/proto"

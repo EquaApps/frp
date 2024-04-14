@@ -4,7 +4,7 @@ import (
 	"net/http"
 
 	"github.com/VaalaCat/frp-panel/cache"
-	"github.com/VaalaCat/frp-panel/dao"
+	"github.com/EquaApps/frp/dao"
 	plugin "github.com/fatedier/frp/pkg/plugin/server"
 	"github.com/gin-gonic/gin"
 	"github.com/sirupsen/logrus"

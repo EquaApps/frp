@@ -3,7 +3,7 @@ package auth
 import (
 	"github.com/VaalaCat/frp-panel/common"
 	"github.com/VaalaCat/frp-panel/conf"
-	"github.com/VaalaCat/frp-panel/pb"
+	"github.com/EquaApps/frp/pb"
 	"github.com/gin-gonic/gin"
 )
 

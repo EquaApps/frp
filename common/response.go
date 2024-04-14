@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/VaalaCat/frp-panel/pb"
+	"github.com/EquaApps/frp/pb"
 	"github.com/gin-gonic/gin"
 	"google.golang.org/protobuf/proto"
 )

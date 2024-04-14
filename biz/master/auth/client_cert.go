@@ -3,8 +3,8 @@ package auth
 import (
 	"context"
 
-	"github.com/VaalaCat/frp-panel/dao"
-	"github.com/VaalaCat/frp-panel/pb"
+	"github.com/EquaApps/frp/dao"
+	"github.com/EquaApps/frp/pb"
 )
 
 func GetClientCert(ctx context.Context, req *pb.GetClientCertRequest) (*pb.GetClientCertResponse, error) {

@@ -4,8 +4,8 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/VaalaCat/frp-panel/models"
-	"github.com/VaalaCat/frp-panel/pb"
+	"github.com/EquaApps/frp/models"
+	"github.com/EquaApps/frp/pb"
 	"github.com/samber/lo"
 )
 

@@ -5,7 +5,7 @@ import (
 	"io"
 	"time"
 
-	"github.com/VaalaCat/frp-panel/pb"
+	"github.com/EquaApps/frp/pb"
 	"github.com/VaalaCat/frp-panel/rpc"
 	"github.com/google/uuid"
 	"github.com/sirupsen/logrus"

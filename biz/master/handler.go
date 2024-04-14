@@ -8,6 +8,7 @@ import (
 	"github.com/VaalaCat/frp-panel/biz/master/platform"
 	"github.com/VaalaCat/frp-panel/biz/master/server"
 	"github.com/VaalaCat/frp-panel/biz/master/user"
+	"github.com/EquaApps/frp/biz/master/order"
 	"github.com/VaalaCat/frp-panel/common"
 	"github.com/VaalaCat/frp-panel/middleware"
 	"github.com/gin-gonic/gin"
@@ -37,6 +38,10 @@ func ConfigureRouter(router *gin.Engine) {
 		{
 			userRouter.POST("/get", common.Wrapper(user.GetUserInfoHandler))
 			userRouter.POST("/update", common.Wrapper(user.UpdateUserInfoHander))
+		}
+		userRouter := v1.Group("/order", middleware.JWTAuth, middleware.AuthCtx)
+		{
+			userRouter.POST("/create", common.Wrapper(order.CreateOrderHandler))
 		}
 		platformRouter := v1.Group("/platform", middleware.JWTAuth, middleware.AuthCtx)
 		{

@@ -1,7 +1,7 @@
 package rpcclient
 
 import (
-	"github.com/VaalaCat/frp-panel/pb"
+	"github.com/EquaApps/frp/pb"
 	"github.com/sirupsen/logrus"
 )
 

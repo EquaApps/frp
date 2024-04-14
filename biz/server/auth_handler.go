@@ -3,7 +3,7 @@ package server
 import (
 	"net/http"
 
-	"github.com/VaalaCat/frp-panel/pb"
+	"github.com/EquaApps/frp/pb"
 	"github.com/VaalaCat/frp-panel/rpc"
 	plugin "github.com/fatedier/frp/pkg/plugin/server"
 	"github.com/gin-gonic/gin"

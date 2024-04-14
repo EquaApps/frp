@@ -39,6 +39,8 @@ type UserEntity struct {
 	Token     string `json:"token"`
 	CreatedAt time.Time
 	UpdatedAt time.Time
+	Bandwidth int
+	UsedBandwidith int
 	DeletedAt gorm.DeletedAt `gorm:"index"`
 }
 

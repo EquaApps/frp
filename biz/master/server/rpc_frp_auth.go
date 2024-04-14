@@ -5,8 +5,8 @@ import (
 	"fmt"
 
 	"github.com/VaalaCat/frp-panel/cache"
-	"github.com/VaalaCat/frp-panel/dao"
-	"github.com/VaalaCat/frp-panel/pb"
+	"github.com/EquaApps/frp/dao"
+	"github.com/EquaApps/frp/pb"
 	"github.com/sirupsen/logrus"
 )
 

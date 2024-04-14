@@ -4,7 +4,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/VaalaCat/frp-panel/pb"
+	"github.com/EquaApps/frp/pb"
 	"github.com/VaalaCat/frp-panel/tunnel"
 	"github.com/sirupsen/logrus"
 )

@@ -37,7 +37,7 @@ export const WindowsInstallCommand = <T extends Client | Server>(
   `[Net.SecurityProtocolType]::Tls -bor ` +
   `[Net.SecurityProtocolType]::Tls11 -bor ` +
   `[Net.SecurityProtocolType]::Tls12;set-ExecutionPolicy RemoteSigned;`+
-  `Invoke-WebRequest https://raw.githubusercontent.com/VaalaCat/frp-panel/main/install.ps1 `+
+  `Invoke-WebRequest https://raw.githubusercontent.com/EquaApps/frp/main/install.ps1 `+
   `-OutFile C:\install.ps1;powershell.exe C:\install.ps1 ${ExecCommandStr(type, item, info, ' ')}`
 }
 
@@ -46,7 +46,7 @@ export const LinuxInstallCommand = <T extends Client | Server>(
   item: T,
   info: GetPlatformInfoResponse,
 ) => {
-  return `curl -sSL https://raw.githubusercontent.com/VaalaCat/frp-panel/main/install.sh | bash -s --${ExecCommandStr(type, item, info, ' ')}`
+  return `curl -sSL https://raw.githubusercontent.com/EquaApps/frp/main/install.sh | bash -s --${ExecCommandStr(type, item, info, ' ')}`
 }
 
 export const ClientEnvFile = <T extends Client | Server>(

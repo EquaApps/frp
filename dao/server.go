@@ -4,7 +4,7 @@ import (
 	"fmt"
 
 	"github.com/VaalaCat/frp-panel/common"
-	"github.com/VaalaCat/frp-panel/models"
+	"github.com/EquaApps/frp/models"
 	"github.com/google/uuid"
 	"github.com/samber/lo"
 )

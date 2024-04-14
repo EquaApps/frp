@@ -4,8 +4,8 @@ import (
 	"context"
 
 	"github.com/VaalaCat/frp-panel/common"
-	"github.com/VaalaCat/frp-panel/dao"
-	"github.com/VaalaCat/frp-panel/models"
+	"github.com/EquaApps/frp/dao"
+	"github.com/EquaApps/frp/models"
 	"github.com/samber/lo"
 	"github.com/sirupsen/logrus"
 )

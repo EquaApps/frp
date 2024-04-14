@@ -3,7 +3,7 @@ package rpc
 import (
 	"sync"
 
-	"github.com/VaalaCat/frp-panel/pb"
+	"github.com/EquaApps/frp/pb"
 )
 
 type ClientsManager interface {

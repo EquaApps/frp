@@ -3,7 +3,7 @@ package common
 import (
 	"context"
 
-	"github.com/VaalaCat/frp-panel/models"
+	"github.com/EquaApps/frp/models"
 )
 
 func GetUserInfo(c context.Context) models.UserInfo {

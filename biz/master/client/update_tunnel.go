@@ -6,8 +6,8 @@ import (
 	"fmt"
 
 	"github.com/VaalaCat/frp-panel/common"
-	"github.com/VaalaCat/frp-panel/dao"
-	"github.com/VaalaCat/frp-panel/pb"
+	"github.com/EquaApps/frp/dao"
+	"github.com/EquaApps/frp/pb"
 	"github.com/VaalaCat/frp-panel/rpc"
 	"github.com/VaalaCat/frp-panel/utils"
 	v1 "github.com/fatedier/frp/pkg/config/v1"
