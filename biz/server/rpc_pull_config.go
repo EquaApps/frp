@@ -6,7 +6,7 @@ import (
 
 	"github.com/EquaApps/frp/pb"
 	"github.com/VaalaCat/frp-panel/rpc"
-	"github.com/VaalaCat/frp-panel/services/server"
+	"github.com/EquaApps/frp/services/server"
 	"github.com/VaalaCat/frp-panel/tunnel"
 	"github.com/VaalaCat/frp-panel/utils"
 	"github.com/sirupsen/logrus"

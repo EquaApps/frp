@@ -33,7 +33,7 @@
 </g>
 <g id="clust13" class="cluster">
 <title>cluster_github.com/VaalaCat/frp&#45;panel/services/server</title>
-<g id="a_clust13"><a xlink:href="/?f=github.com/VaalaCat/frp-panel/services/server" xlink:title="package: github.com/VaalaCat/frp&#45;panel/services/server">
+<g id="a_clust13"><a xlink:href="/?f=github.com/EquaApps/frp/services/server" xlink:title="package: github.com/VaalaCat/frp&#45;panel/services/server">
 <polygon fill="#ffffe0" stroke="#000000" stroke-width=".8" points="344.6122,-93.8 344.6122,-172.8 467.3346,-172.8 467.3346,-93.8 344.6122,-93.8"/>
 <text text-anchor="middle" x="405.9734" y="-154.4" font-family="Tahoma bold" font-size="16.00" fill="#000000">server</text>
 </a>
