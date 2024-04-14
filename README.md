@@ -1,5 +1,3 @@
-> 详细博客地址: [https://vaala.cat/2024/01/14/frp-panel-doc/](https://vaala.cat/2024/01/14/frp-panel-doc/)
-> 使用说明可以看博客，也可以直接滑到最后
 
 # FRP-Panel
 
