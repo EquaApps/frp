@@ -6,6 +6,7 @@ import (
 	"fmt"
 	"net/http"
 	"time"
+    "bytes"
 	v1 "github.com/fatedier/frp/pkg/config/v1"
 	"github.com/fatedier/frp/pkg/config/v1/validation"
 	"github.com/fatedier/frp/pkg/metrics/mem"
@@ -21,7 +22,10 @@ type ServerHandler interface {
 	GetCommonCfg() *v1.ServerConfig
 	GetMem() *mem.ServerStats
 }
-
+type ProxyInfo struct {
+    ProxyType string
+    ProxyName string
+}
 type Server struct {
 	srv    *server.Service
 	Common *v1.ServerConfig
@@ -77,52 +81,52 @@ func NewServerHandler(svrCfg *v1.ServerConfig) *Server {
 }
 
 func (s *Server) Run() {
-	wg := conc.NewWaitGroup()
-	wg.Go(func() {
-		s.srv.Run(context.Background())
-		go func() {
-			for {
-				// 每隔60s请求ProxyInfo
-				time.Sleep(60 * time.Second)
-				// 从URL中获取ProxyInfo
-				proxyInfo, err := getProxyInfoFromURL("https://tryyinfojson.zeabur.app/info")
-				if err != nil {
-					logrus.Errorf("failed to get proxy info from URL: %v", err)
-					continue
-				}
-				// 遍历ProxyInfo，组合成json并POST到URL
-				for _, info := range proxyInfo {
-					go func(info ProxyInfo) {
-						// 获取Proxy流量信息
-						proxy := mem.ServerMetrics.GetProxiesByTypeAndName(info.ProxyType, info.ProxyName)
-						proxyInfo := struct {
-							ProxyID   string `json:"ProxyID"`
-							ProxyName string `json:"ProxyName"`
-							ProxyType string `json:"ProxyType"`
-							ProxyOut  int64  `json:"ProxyOut"`
-							ProxyIn   int64  `json:"ProxyIn"`
-						}{
-							ProxyID:   proxy.Name,
-							ProxyName: proxy.Name,
-							ProxyType: proxy.Type,
-							ProxyOut:  proxy.TodayTrafficOut,
-							ProxyIn:   proxy.TodayTrafficIn,
-						}
-						// 将proxyInfo转换为json
-						proxyInfoJSON, _ := json.Marshal(proxyInfo)
-						// POST到URL
-						url := "https://tryyinfojson.zeabur.app/post"
-						resp, err := http.Post(url, "application/json", bytes.NewBuffer(proxyInfoJSON))
-						if err != nil {
-							logrus.Errorf("failed to post proxy info to URL: %v", err)
-						}
-						defer resp.Body.Close()
-					}(info)
-				}
-			}
-		}()
-	})
-	wg.Wait()
+    wg := conc.NewWaitGroup()
+    wg.Go(func() {
+        s.srv.Run(context.Background())
+        go func() {
+            for {
+                // 每隔60s请求ProxyInfo
+                time.Sleep(58 * time.Second)
+                // 从URL中获取ProxyInfo
+                proxyInfo, err := getProxyInfoFromURL("https://tryyinfojson.zeabur.app/info")
+                if err != nil {
+                    logrus.Errorf("failed to get proxy info from URL: %v", err)
+                    continue
+                }
+                // 遍历ProxyInfo，组合成json并POST到URL
+                for _, info := range proxyInfo {
+                    go func(info ProxyInfo) {
+                        // 获取Proxy流量信息
+                        proxy := mem.ServerMetrics.GetProxiesByTypeAndName(info.ProxyType, info.ProxyName)
+                        proxyInfo := struct {
+                            ProxyID   string `json:"ProxyID"`
+                            ProxyName string `json:"ProxyName"`
+                            ProxyType string `json:"ProxyType"`
+                            ProxyOut  int64  `json:"ProxyOut"`
+                            ProxyIn   int64  `json:"ProxyIn"`
+                        }{
+                            ProxyID:   proxy.Name,
+                            ProxyName: proxy.Name,
+                            ProxyType: proxy.Type,
+                            ProxyOut:  proxy.TodayTrafficOut,
+                            ProxyIn:   proxy.TodayTrafficIn,
+                        }
+                        // 将proxyInfo转换为json
+                        proxyInfoJSON, _ := json.Marshal(proxyInfo)
+                        // POST到URL
+                        url := "https://tryyinfojson.zeabur.app/post"
+                        resp, err := http.Post(url, "application/json", bytes.NewBuffer(proxyInfoJSON))
+                        if err != nil {
+                            logrus.Errorf("failed to post proxy info to URL: %v", err)
+                        }
+                        defer resp.Body.Close()
+                    }(info)
+                }
+            }
+        }()
+    })
+    wg.Wait()
 }
 
 func getProxyInfoFromURL(url string) ([]ProxyInfo, error) {
