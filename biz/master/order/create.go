@@ -5,7 +5,7 @@ import (
     "github.com/johncoker233/frpaaa/common"
     "github.com/johncoker233/frpaaa/dao"
     "github.com/johncoker233/frpaaa/models"
-    "github.com/johncoker233/frpaaa/pb"
+    "./pb"
 )
 
 
