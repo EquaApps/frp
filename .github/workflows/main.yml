@@ -25,21 +25,4 @@ jobs:
 
       - name: Build Protobuf for Go
         run: |
-          cd idl && protoc *.proto --go_out=. --go-grpc_out=. && cd ..
-
-      - name: Build Protobuf for TypeScript
-        run: |
-          cd www && npx protoc --ts_out ./lib/pb -I ../idl --proto_path ../idl/common.proto ../idl/common.proto ../idl/api*.proto && cd ..
-
-      - name: Compress directories
-        run: |
-          tar -czf idl.tar.gz idl
-          tar -czf www.tar.gz www
-
-      - name: Upload artifacts
-        uses: actions/upload-artifact@v2
-        with:
-          name: directories
-          paths:
-            - idl.tar.gz
-            - www.tar.gz
+          cd idl && protoc *.proto --go_out=
